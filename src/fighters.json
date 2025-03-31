@@ -1,0 +1,5393 @@
+[
+  {
+    "Name": "Javid Basharat",
+    "Country": "Afghanistan",
+    "Weight Class": "Bantamweight",
+    "Age": 29,
+    "Height": 69,
+    "UFC Fights": 6,
+    "MMA Fights": 49
+  },
+  {
+    "Name": "Farid Basharat",
+    "Country": "Afghanistan",
+    "Weight Class": "Featherweight",
+    "Age": 27,
+    "Height": 68,
+    "UFC Fights": 4,
+    "MMA Fights": 8
+  },
+  {
+    "Name": "Bernardo Sopaj",
+    "Country": "Albania",
+    "Weight Class": "Bantamweight",
+    "Age": 24,
+    "Height": 66,
+    "UFC Fights": 2,
+    "MMA Fights": 20
+  },
+  {
+    "Name": "Manel Kape",
+    "Country": "Angola",
+    "Weight Class": "Flyweight",
+    "Age": 31,
+    "Height": 65,
+    "UFC Fights": 9,
+    "MMA Fights": 20
+  },
+  {
+    "Name": "Santiago Ponzinibbio",
+    "Country": "Argentina",
+    "Weight Class": "Welterweight",
+    "Age": 38,
+    "Height": 72,
+    "UFC Fights": 19,
+    "MMA Fights": 14
+  },
+  {
+    "Name": "Francisco Prado",
+    "Country": "Argentina",
+    "Weight Class": "Welterweight",
+    "Age": 22,
+    "Height": 70,
+    "UFC Fights": 4,
+    "MMA Fights": 33
+  },
+  {
+    "Name": "Esteban Ribovics",
+    "Country": "Argentina",
+    "Weight Class": "Lightweight",
+    "Age": 28,
+    "Height": 70,
+    "UFC Fights": 5,
+    "MMA Fights": 10
+  },
+  {
+    "Name": "Kevin Vallejos",
+    "Country": "Argentina",
+    "Weight Class": "Featherweight",
+    "Age": 23,
+    "Height": 67,
+    "UFC Fights": 1,
+    "MMA Fights": 19
+  },
+  {
+    "Name": "Ailín Pérez",
+    "Country": "Argentina",
+    "Weight Class": "Bantamweight",
+    "Age": 30,
+    "Height": 65,
+    "UFC Fights": 6,
+    "MMA Fights": 14
+  },
+  {
+    "Name": "Arman Tsarukyan",
+    "Country": "Armenia",
+    "Weight Class": "Lightweight",
+    "Age": 28,
+    "Height": 69,
+    "UFC Fights": 11,
+    "MMA Fights": 18
+  },
+  {
+    "Name": "Melsik Baghdasaryan",
+    "Country": "Armenia",
+    "Weight Class": "Featherweight",
+    "Age": 33,
+    "Height": 69,
+    "UFC Fights": 5,
+    "MMA Fights": 19
+  },
+  {
+    "Name": "Junior Tafa",
+    "Country": "Australia",
+    "Weight Class": "Heavyweight",
+    "Age": 28,
+    "Height": 75,
+    "UFC Fights": 5,
+    "MMA Fights": 31
+  },
+  {
+    "Name": "Tom Nolan",
+    "Country": "Australia",
+    "Weight Class": "Lightweight",
+    "Age": 25,
+    "Height": 75,
+    "UFC Fights": 4,
+    "MMA Fights": 48
+  },
+  {
+    "Name": "Tai Tuivasa",
+    "Country": "Australia",
+    "Weight Class": "Heavyweight",
+    "Age": 32,
+    "Height": 74,
+    "UFC Fights": 16,
+    "MMA Fights": 17
+  },
+  {
+    "Name": "Jimmy Crute",
+    "Country": "Australia",
+    "Weight Class": "Light Heavyweight",
+    "Age": 30,
+    "Height": 74,
+    "UFC Fights": 10,
+    "MMA Fights": 10
+  },
+  {
+    "Name": "Jacob Malkoun",
+    "Country": "Australia",
+    "Weight Class": "Middleweight",
+    "Age": 29,
+    "Height": 73,
+    "UFC Fights": 7,
+    "MMA Fights": 30
+  },
+  {
+    "Name": "Justin Tafa",
+    "Country": "Australia",
+    "Weight Class": "Heavyweight",
+    "Age": 31,
+    "Height": 72,
+    "UFC Fights": 10,
+    "MMA Fights": 24
+  },
+  {
+    "Name": "Robert Whittaker",
+    "Country": "Australia",
+    "Weight Class": "Middleweight",
+    "Age": 34,
+    "Height": 72,
+    "UFC Fights": 23,
+    "MMA Fights": 16
+  },
+  {
+    "Name": "Jonathan Micallef",
+    "Country": "Australia",
+    "Weight Class": "Welterweight",
+    "Age": 26,
+    "Height": 72,
+    "UFC Fights": 1,
+    "MMA Fights": 17
+  },
+  {
+    "Name": "Quillan Salkilld",
+    "Country": "Australia",
+    "Weight Class": "Lightweight",
+    "Age": 25,
+    "Height": 72,
+    "UFC Fights": 1,
+    "MMA Fights": 11
+  },
+  {
+    "Name": "Jake Matthews",
+    "Country": "Australia",
+    "Weight Class": "Welterweight",
+    "Age": 30,
+    "Height": 71,
+    "UFC Fights": 21,
+    "MMA Fights": 14
+  },
+  {
+    "Name": "Jack Della Maddalena",
+    "Country": "Australia",
+    "Weight Class": "Welterweight",
+    "Age": 28,
+    "Height": 71,
+    "UFC Fights": 7,
+    "MMA Fights": 9
+  },
+  {
+    "Name": "Jamie Mullarkey",
+    "Country": "Australia",
+    "Weight Class": "Lightweight",
+    "Age": 30,
+    "Height": 68,
+    "UFC Fights": 11,
+    "MMA Fights": 15
+  },
+  {
+    "Name": "Steve Erceg",
+    "Country": "Australia",
+    "Weight Class": "Flyweight",
+    "Age": 29,
+    "Height": 68,
+    "UFC Fights": 5,
+    "MMA Fights": 29
+  },
+  {
+    "Name": "Jack Jenkins",
+    "Country": "Australia",
+    "Weight Class": "Featherweight",
+    "Age": 32,
+    "Height": 67,
+    "UFC Fights": 5,
+    "MMA Fights": 59
+  },
+  {
+    "Name": "Kaan Ofli",
+    "Country": "Australia",
+    "Weight Class": "Featherweight",
+    "Age": 31,
+    "Height": 67,
+    "UFC Fights": 2,
+    "MMA Fights": 18
+  },
+  {
+    "Name": "Cody Haddon",
+    "Country": "Australia",
+    "Weight Class": "Bantamweight",
+    "Age": 26,
+    "Height": 67,
+    "UFC Fights": 1,
+    "MMA Fights": 16
+  },
+  {
+    "Name": "Colby Thicknesse",
+    "Country": "Australia",
+    "Weight Class": "Bantamweight",
+    "Age": 25,
+    "Height": 67,
+    "UFC Fights": 1,
+    "MMA Fights": 37
+  },
+  {
+    "Name": "Alexander Volkanovski",
+    "Country": "Australia",
+    "Weight Class": "Featherweight",
+    "Age": 36,
+    "Height": 66,
+    "UFC Fights": 16,
+    "MMA Fights": 13
+  },
+  {
+    "Name": "Stewart Nicoll",
+    "Country": "Australia",
+    "Weight Class": "Flyweight",
+    "Age": 30,
+    "Height": 65,
+    "UFC Fights": 1,
+    "MMA Fights": 15
+  },
+  {
+    "Name": "Aleksandar Rakić",
+    "Country": "Austria",
+    "Weight Class": "Light Heavyweight",
+    "Age": 33,
+    "Height": 77,
+    "UFC Fights": 10,
+    "MMA Fights": 11
+  },
+  {
+    "Name": "Ismail Naurdiev",
+    "Country": "Austria",
+    "Weight Class": "Middleweight",
+    "Age": 28,
+    "Height": 72,
+    "UFC Fights": 5,
+    "MMA Fights": 15
+  },
+  {
+    "Name": "Bogdan Grad",
+    "Country": "Austria",
+    "Weight Class": "Featherweight",
+    "Age": 29,
+    "Height": 68,
+    "UFC Fights": 1,
+    "MMA Fights": 6
+  },
+  {
+    "Name": "Nazim Sadykhov",
+    "Country": "Azerbaijan",
+    "Weight Class": "Lightweight",
+    "Age": 30,
+    "Height": 70,
+    "UFC Fights": 4,
+    "MMA Fights": 7
+  },
+  {
+    "Name": "Rafael Fiziev",
+    "Country": "Azerbaijan",
+    "Weight Class": "Lightweight",
+    "Age": 32,
+    "Height": 68,
+    "UFC Fights": 11,
+    "MMA Fights": 27
+  },
+  {
+    "Name": "Shamil Gaziev",
+    "Country": "Bahrain",
+    "Weight Class": "Heavyweight",
+    "Age": 35,
+    "Height": 76,
+    "UFC Fights": 4,
+    "MMA Fights": 29
+  },
+  {
+    "Name": "Bolaji Oki",
+    "Country": "Belgium",
+    "Weight Class": "Lightweight",
+    "Age": 29,
+    "Height": 70,
+    "UFC Fights": 2,
+    "MMA Fights": 10
+  },
+  {
+    "Name": "José Medina",
+    "Country": "Bolivia",
+    "Weight Class": "Middleweight",
+    "Age": 33,
+    "Height": 72,
+    "UFC Fights": 1,
+    "MMA Fights": 21
+  },
+  {
+    "Name": "Tallison Teixeira",
+    "Country": "Brazil",
+    "Weight Class": "Heavyweight",
+    "Age": 25,
+    "Height": 79,
+    "UFC Fights": 1,
+    "MMA Fights": 13
+  },
+  {
+    "Name": "Valter Walker",
+    "Country": "Brazil",
+    "Weight Class": "Heavyweight",
+    "Age": 27,
+    "Height": 78,
+    "UFC Fights": 3,
+    "MMA Fights": 12
+  },
+  {
+    "Name": "Johnny Walker",
+    "Country": "Brazil",
+    "Weight Class": "Light Heavyweight",
+    "Age": 32,
+    "Height": 77,
+    "UFC Fights": 14,
+    "MMA Fights": 7
+  },
+  {
+    "Name": "Antonio Trócoli",
+    "Country": "Brazil",
+    "Weight Class": "Middleweight",
+    "Age": 34,
+    "Height": 77,
+    "UFC Fights": 2,
+    "MMA Fights": 40
+  },
+  {
+    "Name": "Jhonata Diniz",
+    "Country": "Brazil",
+    "Weight Class": "Heavyweight",
+    "Age": 33,
+    "Height": 76,
+    "UFC Fights": 3,
+    "MMA Fights": 22
+  },
+  {
+    "Name": "Alex Pereira",
+    "Country": "Brazil",
+    "Weight Class": "Light Heavyweight",
+    "Age": 37,
+    "Height": 76,
+    "UFC Fights": 11,
+    "MMA Fights": 36
+  },
+  {
+    "Name": "Jailton Almeida",
+    "Country": "Brazil",
+    "Weight Class": "Heavyweight",
+    "Age": 33,
+    "Height": 75,
+    "UFC Fights": 9,
+    "MMA Fights": 22
+  },
+  {
+    "Name": "Rodolfo Bellato",
+    "Country": "Brazil",
+    "Weight Class": "Light Heavyweight",
+    "Age": 29,
+    "Height": 75,
+    "UFC Fights": 2,
+    "MMA Fights": 25
+  },
+  {
+    "Name": "Brendson Ribeiro",
+    "Country": "Brazil",
+    "Weight Class": "Light Heavyweight",
+    "Age": 28,
+    "Height": 75,
+    "UFC Fights": 4,
+    "MMA Fights": 9
+  },
+  {
+    "Name": "Raffael Cerqueira",
+    "Country": "Brazil",
+    "Weight Class": "Light Heavyweight",
+    "Age": 35,
+    "Height": 75,
+    "UFC Fights": 2,
+    "MMA Fights": 25
+  },
+  {
+    "Name": "Gregory Rodrigues",
+    "Country": "Brazil",
+    "Weight Class": "Middleweight",
+    "Age": 33,
+    "Height": 75,
+    "UFC Fights": 10,
+    "MMA Fights": 23
+  },
+  {
+    "Name": "Vitor Petrino",
+    "Country": "Brazil",
+    "Weight Class": "Light Heavyweight",
+    "Age": 27,
+    "Height": 74,
+    "UFC Fights": 6,
+    "MMA Fights": 20
+  },
+  {
+    "Name": "Bruno Lopes",
+    "Country": "Brazil",
+    "Weight Class": "Light Heavyweight",
+    "Age": 31,
+    "Height": 74,
+    "UFC Fights": 1,
+    "MMA Fights": 15
+  },
+  {
+    "Name": "Michel Pereira",
+    "Country": "Brazil",
+    "Weight Class": "Middleweight",
+    "Age": 31,
+    "Height": 74,
+    "UFC Fights": 12,
+    "MMA Fights": 24
+  },
+  {
+    "Name": "André Muniz",
+    "Country": "Brazil",
+    "Weight Class": "Middleweight",
+    "Age": 35,
+    "Height": 74,
+    "UFC Fights": 9,
+    "MMA Fights": 16
+  },
+  {
+    "Name": "Djorden Ribeiro dos Santos",
+    "Country": "Brazil",
+    "Weight Class": "Middleweight",
+    "Age": 27,
+    "Height": 74,
+    "UFC Fights": 1,
+    "MMA Fights": 13
+  },
+  {
+    "Name": "César Almeida",
+    "Country": "Brazil",
+    "Weight Class": "Middleweight",
+    "Age": 37,
+    "Height": 73,
+    "UFC Fights": 4,
+    "MMA Fights": 9
+  },
+  {
+    "Name": "Gabriel Bonfim",
+    "Country": "Brazil",
+    "Weight Class": "Welterweight",
+    "Age": 27,
+    "Height": 73,
+    "UFC Fights": 5,
+    "MMA Fights": 18
+  },
+  {
+    "Name": "Carlos Prates",
+    "Country": "Brazil",
+    "Weight Class": "Welterweight",
+    "Age": 31,
+    "Height": 73,
+    "UFC Fights": 4,
+    "MMA Fights": 21
+  },
+  {
+    "Name": "Paulo Costa",
+    "Country": "Brazil",
+    "Weight Class": "Middleweight",
+    "Age": 33,
+    "Height": 72,
+    "UFC Fights": 10,
+    "MMA Fights": 22
+  },
+  {
+    "Name": "Bruno Silva",
+    "Country": "Brazil",
+    "Weight Class": "Middleweight",
+    "Age": 35,
+    "Height": 72,
+    "UFC Fights": 10,
+    "MMA Fights": 26
+  },
+  {
+    "Name": "Marco Tulio",
+    "Country": "Brazil",
+    "Weight Class": "Middleweight",
+    "Age": 30,
+    "Height": 72,
+    "UFC Fights": 1,
+    "MMA Fights": 42
+  },
+  {
+    "Name": "Wellington Turman",
+    "Country": "Brazil",
+    "Weight Class": "Welterweight",
+    "Age": 28,
+    "Height": 72,
+    "UFC Fights": 9,
+    "MMA Fights": 25
+  },
+  {
+    "Name": "Rodolfo Vieira",
+    "Country": "Brazil",
+    "Weight Class": "Middleweight",
+    "Age": 35,
+    "Height": 71,
+    "UFC Fights": 8,
+    "MMA Fights": 41
+  },
+  {
+    "Name": "Elizeu Zaleski dos Santos",
+    "Country": "Brazil",
+    "Weight Class": "Welterweight",
+    "Age": 38,
+    "Height": 71,
+    "UFC Fights": 17,
+    "MMA Fights": 15
+  },
+  {
+    "Name": "Vicente Luque",
+    "Country": "Brazil",
+    "Weight Class": "Welterweight",
+    "Age": 33,
+    "Height": 71,
+    "UFC Fights": 22,
+    "MMA Fights": 10
+  },
+  {
+    "Name": "Carlos Leal Miranda",
+    "Country": "Brazil",
+    "Weight Class": "Welterweight",
+    "Age": 30,
+    "Height": 71,
+    "UFC Fights": 2,
+    "MMA Fights": 16
+  },
+  {
+    "Name": "Renato Moicano",
+    "Country": "Brazil",
+    "Weight Class": "Lightweight",
+    "Age": 35,
+    "Height": 71,
+    "UFC Fights": 18,
+    "MMA Fights": 36
+  },
+  {
+    "Name": "Maurício Ruffy",
+    "Country": "Brazil",
+    "Weight Class": "Lightweight",
+    "Age": 28,
+    "Height": 71,
+    "UFC Fights": 3,
+    "MMA Fights": 16
+  },
+  {
+    "Name": "Edson Barboza",
+    "Country": "Brazil",
+    "Weight Class": "Featherweight",
+    "Age": 39,
+    "Height": 71,
+    "UFC Fights": 30,
+    "MMA Fights": 25
+  },
+  {
+    "Name": "Lucas Almeida",
+    "Country": "Brazil",
+    "Weight Class": "Featherweight",
+    "Age": 34,
+    "Height": 71,
+    "UFC Fights": 5,
+    "MMA Fights": 22
+  },
+  {
+    "Name": "Gabriel Miranda",
+    "Country": "Brazil",
+    "Weight Class": "Featherweight",
+    "Age": 35,
+    "Height": 71,
+    "UFC Fights": 4,
+    "MMA Fights": 10
+  },
+  {
+    "Name": "Lucas Alexander",
+    "Country": "Brazil",
+    "Weight Class": "Featherweight",
+    "Age": 29,
+    "Height": 71,
+    "UFC Fights": 4,
+    "MMA Fights": 5
+  },
+  {
+    "Name": "Diego Lopes",
+    "Country": "Brazil",
+    "Weight Class": "Featherweight",
+    "Age": 30,
+    "Height": 71,
+    "UFC Fights": 6,
+    "MMA Fights": 14
+  },
+  {
+    "Name": "Caio Borralho",
+    "Country": "Brazil",
+    "Weight Class": "Middleweight",
+    "Age": 32,
+    "Height": 70,
+    "UFC Fights": 7,
+    "MMA Fights": 7
+  },
+  {
+    "Name": "Brunno Ferreira",
+    "Country": "Brazil",
+    "Weight Class": "Middleweight",
+    "Age": 32,
+    "Height": 70,
+    "UFC Fights": 6,
+    "MMA Fights": 23
+  },
+  {
+    "Name": "Gilbert Burns",
+    "Country": "Brazil",
+    "Weight Class": "Welterweight",
+    "Age": 38,
+    "Height": 70,
+    "UFC Fights": 23,
+    "MMA Fights": 39
+  },
+  {
+    "Name": "Charles Oliveira",
+    "Country": "Brazil",
+    "Weight Class": "Lightweight",
+    "Age": 35,
+    "Height": 70,
+    "UFC Fights": 34,
+    "MMA Fights": 41
+  },
+  {
+    "Name": "Elves Brener",
+    "Country": "Brazil",
+    "Weight Class": "Lightweight",
+    "Age": 27,
+    "Height": 70,
+    "UFC Fights": 5,
+    "MMA Fights": 28
+  },
+  {
+    "Name": "Melquizael Costa",
+    "Country": "Brazil",
+    "Weight Class": "Featherweight",
+    "Age": 28,
+    "Height": 70,
+    "UFC Fights": 5,
+    "MMA Fights": 24
+  },
+  {
+    "Name": "Thiago Moisés",
+    "Country": "Brazil",
+    "Weight Class": "Lightweight",
+    "Age": 30,
+    "Height": 69,
+    "UFC Fights": 14,
+    "MMA Fights": 18
+  },
+  {
+    "Name": "Nikolas Motta",
+    "Country": "Brazil",
+    "Weight Class": "Lightweight",
+    "Age": 32,
+    "Height": 69,
+    "UFC Fights": 6,
+    "MMA Fights": 13
+  },
+  {
+    "Name": "Kauê Fernandes",
+    "Country": "Brazil",
+    "Weight Class": "Lightweight",
+    "Age": 30,
+    "Height": 69,
+    "UFC Fights": 3,
+    "MMA Fights": 24
+  },
+  {
+    "Name": "Ricardo Ramos",
+    "Country": "Brazil",
+    "Weight Class": "Featherweight",
+    "Age": 29,
+    "Height": 69,
+    "UFC Fights": 14,
+    "MMA Fights": 18
+  },
+  {
+    "Name": "Kron Gracie",
+    "Country": "Brazil",
+    "Weight Class": "Featherweight",
+    "Age": 36,
+    "Height": 69,
+    "UFC Fights": 4,
+    "MMA Fights": 15
+  },
+  {
+    "Name": "Gabriel Santos",
+    "Country": "Brazil",
+    "Weight Class": "Featherweight",
+    "Age": 28,
+    "Height": 69,
+    "UFC Fights": 4,
+    "MMA Fights": 11
+  },
+  {
+    "Name": "Vinicius Oliveira",
+    "Country": "Brazil",
+    "Weight Class": "Bantamweight",
+    "Age": 29,
+    "Height": 69,
+    "UFC Fights": 3,
+    "MMA Fights": 26
+  },
+  {
+    "Name": "Allan Nascimento",
+    "Country": "Brazil",
+    "Weight Class": "Flyweight",
+    "Age": 33,
+    "Height": 69,
+    "UFC Fights": 3,
+    "MMA Fights": 19
+  },
+  {
+    "Name": "Rafael dos Anjos",
+    "Country": "Brazil",
+    "Weight Class": "Welterweight",
+    "Age": 40,
+    "Height": 68,
+    "UFC Fights": 36,
+    "MMA Fights": 45
+  },
+  {
+    "Name": "Carlos Diego Ferreira",
+    "Country": "Brazil",
+    "Weight Class": "Lightweight",
+    "Age": 40,
+    "Height": 68,
+    "UFC Fights": 16,
+    "MMA Fights": 31
+  },
+  {
+    "Name": "Joaquim Silva",
+    "Country": "Brazil",
+    "Weight Class": "Lightweight",
+    "Age": 36,
+    "Height": 68,
+    "UFC Fights": 11,
+    "MMA Fights": 30
+  },
+  {
+    "Name": "Ismael Bonfim",
+    "Country": "Brazil",
+    "Weight Class": "Lightweight",
+    "Age": 29,
+    "Height": 68,
+    "UFC Fights": 4,
+    "MMA Fights": 14
+  },
+  {
+    "Name": "Joanderson Brito",
+    "Country": "Brazil",
+    "Weight Class": "Featherweight",
+    "Age": 30,
+    "Height": 68,
+    "UFC Fights": 7,
+    "MMA Fights": 34
+  },
+  {
+    "Name": "Rafael Estevam",
+    "Country": "Brazil",
+    "Weight Class": "Flyweight",
+    "Age": 28,
+    "Height": 68,
+    "UFC Fights": 2,
+    "MMA Fights": 16
+  },
+  {
+    "Name": "Ketlen Vieira",
+    "Country": "Brazil",
+    "Weight Class": "Bantamweight",
+    "Age": 33,
+    "Height": 68,
+    "UFC Fights": 12,
+    "MMA Fights": 12
+  },
+  {
+    "Name": "Jean Silva",
+    "Country": "Brazil",
+    "Weight Class": "Featherweight",
+    "Age": 28,
+    "Height": 67,
+    "UFC Fights": 4,
+    "MMA Fights": 13
+  },
+  {
+    "Name": "Mairon Santos",
+    "Country": "Brazil",
+    "Weight Class": "Featherweight",
+    "Age": 24,
+    "Height": 67,
+    "UFC Fights": 2,
+    "MMA Fights": 16
+  },
+  {
+    "Name": "José Aldo *",
+    "Country": "Brazil",
+    "Weight Class": "Bantamweight",
+    "Age": 38,
+    "Height": 67,
+    "UFC Fights": 30,
+    "MMA Fights": 14
+  },
+  {
+    "Name": "Douglas Silva de Andrade",
+    "Country": "Brazil",
+    "Weight Class": "Bantamweight",
+    "Age": 39,
+    "Height": 67,
+    "UFC Fights": 13,
+    "MMA Fights": 8
+  },
+  {
+    "Name": "Raoni Barcelos",
+    "Country": "Brazil",
+    "Weight Class": "Bantamweight",
+    "Age": 37,
+    "Height": 67,
+    "UFC Fights": 12,
+    "MMA Fights": 8
+  },
+  {
+    "Name": "Daniel Santos",
+    "Country": "Brazil",
+    "Weight Class": "Bantamweight",
+    "Age": 30,
+    "Height": 67,
+    "UFC Fights": 3,
+    "MMA Fights": 12
+  },
+  {
+    "Name": "Luan Lacerda",
+    "Country": "Brazil",
+    "Weight Class": "Bantamweight",
+    "Age": 32,
+    "Height": 67,
+    "UFC Fights": 2,
+    "MMA Fights": 52
+  },
+  {
+    "Name": "Jafel Filho",
+    "Country": "Brazil",
+    "Weight Class": "Flyweight",
+    "Age": 31,
+    "Height": 67,
+    "UFC Fights": 3,
+    "MMA Fights": 14
+  },
+  {
+    "Name": "Felipe dos Santos",
+    "Country": "Brazil",
+    "Weight Class": "Flyweight",
+    "Age": 24,
+    "Height": 67,
+    "UFC Fights": 4,
+    "MMA Fights": 20
+  },
+  {
+    "Name": "Felipe Bunes",
+    "Country": "Brazil",
+    "Weight Class": "Flyweight",
+    "Age": 35,
+    "Height": 67,
+    "UFC Fights": 2,
+    "MMA Fights": 23
+  },
+  {
+    "Name": "André Lima",
+    "Country": "Brazil",
+    "Weight Class": "Flyweight",
+    "Age": 26,
+    "Height": 67,
+    "UFC Fights": 4,
+    "MMA Fights": 14
+  },
+  {
+    "Name": "Priscila Cachoeira",
+    "Country": "Brazil",
+    "Weight Class": "Bantamweight",
+    "Age": 36,
+    "Height": 67,
+    "UFC Fights": 11,
+    "MMA Fights": 10
+  },
+  {
+    "Name": "Karol Rosa",
+    "Country": "Brazil",
+    "Weight Class": "Bantamweight",
+    "Age": 30,
+    "Height": 67,
+    "UFC Fights": 11,
+    "MMA Fights": 15
+  },
+  {
+    "Name": "Norma Dumont",
+    "Country": "Brazil",
+    "Weight Class": "Bantamweight",
+    "Age": 34,
+    "Height": 67,
+    "UFC Fights": 10,
+    "MMA Fights": 12
+  },
+  {
+    "Name": "Luana Carolina",
+    "Country": "Brazil",
+    "Weight Class": "Flyweight",
+    "Age": 31,
+    "Height": 67,
+    "UFC Fights": 9,
+    "MMA Fights": 31
+  },
+  {
+    "Name": "Polyana Viana",
+    "Country": "Brazil",
+    "Weight Class": "Strawweight",
+    "Age": 32,
+    "Height": 67,
+    "UFC Fights": 10,
+    "MMA Fights": 20
+  },
+  {
+    "Name": "Marina Rodriguez",
+    "Country": "Brazil",
+    "Weight Class": "Strawweight",
+    "Age": 37,
+    "Height": 67,
+    "UFC Fights": 14,
+    "MMA Fights": 30
+  },
+  {
+    "Name": "Felipe Lima",
+    "Country": "Brazil",
+    "Weight Class": "Featherweight",
+    "Age": 26,
+    "Height": 66,
+    "UFC Fights": 2,
+    "MMA Fights": 36
+  },
+  {
+    "Name": "Rani Yahya *",
+    "Country": "Brazil",
+    "Weight Class": "Bantamweight",
+    "Age": 40,
+    "Height": 66,
+    "UFC Fights": 21,
+    "MMA Fights": 32
+  },
+  {
+    "Name": "Pedro Munhoz",
+    "Country": "Brazil",
+    "Weight Class": "Bantamweight",
+    "Age": 38,
+    "Height": 66,
+    "UFC Fights": 22,
+    "MMA Fights": 55
+  },
+  {
+    "Name": "Saimon Oliveira",
+    "Country": "Brazil",
+    "Weight Class": "Bantamweight",
+    "Age": 33,
+    "Height": 66,
+    "UFC Fights": 2,
+    "MMA Fights": 25
+  },
+  {
+    "Name": "Jean Matsumoto",
+    "Country": "Brazil",
+    "Weight Class": "Bantamweight",
+    "Age": 25,
+    "Height": 66,
+    "UFC Fights": 3,
+    "MMA Fights": 17
+  },
+  {
+    "Name": "Pedro Falcão",
+    "Country": "Brazil",
+    "Weight Class": "Bantamweight",
+    "Age": 32,
+    "Height": 66,
+    "UFC Fights": 1,
+    "MMA Fights": 11
+  },
+  {
+    "Name": "Tainara Lisboa",
+    "Country": "Brazil",
+    "Weight Class": "Bantamweight",
+    "Age": 34,
+    "Height": 66,
+    "UFC Fights": 2,
+    "MMA Fights": 7
+  },
+  {
+    "Name": "Mayra Bueno Silva",
+    "Country": "Brazil",
+    "Weight Class": "Flyweight",
+    "Age": 33,
+    "Height": 66,
+    "UFC Fights": 12,
+    "MMA Fights": 8
+  },
+  {
+    "Name": "Ariane da Silva",
+    "Country": "Brazil",
+    "Weight Class": "Flyweight",
+    "Age": 31,
+    "Height": 66,
+    "UFC Fights": 13,
+    "MMA Fights": 8
+  },
+  {
+    "Name": "Gabriella Fernandes",
+    "Country": "Brazil",
+    "Weight Class": "Flyweight",
+    "Age": 31,
+    "Height": 66,
+    "UFC Fights": 4,
+    "MMA Fights": 27
+  },
+  {
+    "Name": "Bruna Brasil",
+    "Country": "Brazil",
+    "Weight Class": "Flyweight",
+    "Age": 31,
+    "Height": 66,
+    "UFC Fights": 5,
+    "MMA Fights": 19
+  },
+  {
+    "Name": "Luana Santos",
+    "Country": "Brazil",
+    "Weight Class": "Flyweight",
+    "Age": 24,
+    "Height": 66,
+    "UFC Fights": 4,
+    "MMA Fights": 13
+  },
+  {
+    "Name": "Dione Barbosa",
+    "Country": "Brazil",
+    "Weight Class": "Flyweight",
+    "Age": 32,
+    "Height": 66,
+    "UFC Fights": 2,
+    "MMA Fights": 15
+  },
+  {
+    "Name": "Eduarda Moura",
+    "Country": "Brazil",
+    "Weight Class": "Flyweight",
+    "Age": 31,
+    "Height": 66,
+    "UFC Fights": 3,
+    "MMA Fights": 14
+  },
+  {
+    "Name": "Stephanie Luciano",
+    "Country": "Brazil",
+    "Weight Class": "Strawweight",
+    "Age": 25,
+    "Height": 66,
+    "UFC Fights": 2,
+    "MMA Fights": 14
+  },
+  {
+    "Name": "Deiveson Figueiredo",
+    "Country": "Brazil",
+    "Weight Class": "Bantamweight",
+    "Age": 37,
+    "Height": 65,
+    "UFC Fights": 18,
+    "MMA Fights": 18
+  },
+  {
+    "Name": "Alexandre Pantoja",
+    "Country": "Brazil",
+    "Weight Class": "Flyweight",
+    "Age": 34,
+    "Height": 65,
+    "UFC Fights": 16,
+    "MMA Fights": 19
+  },
+  {
+    "Name": "Melissa Gatto",
+    "Country": "Brazil",
+    "Weight Class": "Bantamweight",
+    "Age": 29,
+    "Height": 65,
+    "UFC Fights": 5,
+    "MMA Fights": 27
+  },
+  {
+    "Name": "Ravena Oliveira",
+    "Country": "Brazil",
+    "Weight Class": "Bantamweight",
+    "Age": 28,
+    "Height": 65,
+    "UFC Fights": 1,
+    "MMA Fights": 21
+  },
+  {
+    "Name": "Viviane Araújo",
+    "Country": "Brazil",
+    "Weight Class": "Flyweight",
+    "Age": 38,
+    "Height": 65,
+    "UFC Fights": 12,
+    "MMA Fights": 19
+  },
+  {
+    "Name": "Karine Silva",
+    "Country": "Brazil",
+    "Weight Class": "Flyweight",
+    "Age": 31,
+    "Height": 65,
+    "UFC Fights": 5,
+    "MMA Fights": 20
+  },
+  {
+    "Name": "Denise Gomes",
+    "Country": "Brazil",
+    "Weight Class": "Strawweight",
+    "Age": 25,
+    "Height": 65,
+    "UFC Fights": 6,
+    "MMA Fights": 17
+  },
+  {
+    "Name": "Bruno Gustavo da Silva",
+    "Country": "Brazil",
+    "Weight Class": "Flyweight",
+    "Age": 35,
+    "Height": 64,
+    "UFC Fights": 8,
+    "MMA Fights": 41
+  },
+  {
+    "Name": "Alessandro Costa",
+    "Country": "Brazil",
+    "Weight Class": "Flyweight",
+    "Age": 29,
+    "Height": 64,
+    "UFC Fights": 4,
+    "MMA Fights": 22
+  },
+  {
+    "Name": "Lucas Rocha",
+    "Country": "Brazil",
+    "Weight Class": "Flyweight",
+    "Age": 24,
+    "Height": 64,
+    "UFC Fights": 1,
+    "MMA Fights": 26
+  },
+  {
+    "Name": "Natália Silva",
+    "Country": "Brazil",
+    "Weight Class": "Flyweight",
+    "Age": 28,
+    "Height": 64,
+    "UFC Fights": 6,
+    "MMA Fights": 13
+  },
+  {
+    "Name": "Amanda Lemos",
+    "Country": "Brazil",
+    "Weight Class": "Strawweight",
+    "Age": 37,
+    "Height": 64,
+    "UFC Fights": 13,
+    "MMA Fights": 22
+  },
+  {
+    "Name": "Amanda Ribas",
+    "Country": "Brazil",
+    "Weight Class": "Strawweight",
+    "Age": 31,
+    "Height": 64,
+    "UFC Fights": 12,
+    "MMA Fights": 34
+  },
+  {
+    "Name": "Alexia Thainara",
+    "Country": "Brazil",
+    "Weight Class": "Strawweight",
+    "Age": 27,
+    "Height": 64,
+    "UFC Fights": 1,
+    "MMA Fights": 25
+  },
+  {
+    "Name": "Nicolle Caliari",
+    "Country": "Brazil",
+    "Weight Class": "Flyweight",
+    "Age": 28,
+    "Height": 63,
+    "UFC Fights": 1,
+    "MMA Fights": 27
+  },
+  {
+    "Name": "Virna Jandiroba",
+    "Country": "Brazil",
+    "Weight Class": "Strawweight",
+    "Age": 36,
+    "Height": 63,
+    "UFC Fights": 10,
+    "MMA Fights": 18
+  },
+  {
+    "Name": "Iasmin Lucindo",
+    "Country": "Brazil",
+    "Weight Class": "Strawweight",
+    "Age": 23,
+    "Height": 63,
+    "UFC Fights": 6,
+    "MMA Fights": 29
+  },
+  {
+    "Name": "Jaqueline Amorim",
+    "Country": "Brazil",
+    "Weight Class": "Strawweight",
+    "Age": 29,
+    "Height": 63,
+    "UFC Fights": 4,
+    "MMA Fights": 17
+  },
+  {
+    "Name": "Ketlen Souza",
+    "Country": "Brazil",
+    "Weight Class": "Strawweight",
+    "Age": 29,
+    "Height": 63,
+    "UFC Fights": 4,
+    "MMA Fights": 31
+  },
+  {
+    "Name": "Josiane Nunes",
+    "Country": "Brazil",
+    "Weight Class": "Bantamweight",
+    "Age": 31,
+    "Height": 62,
+    "UFC Fights": 6,
+    "MMA Fights": 24
+  },
+  {
+    "Name": "Jéssica Andrade",
+    "Country": "Brazil",
+    "Weight Class": "Flyweight",
+    "Age": 33,
+    "Height": 62,
+    "UFC Fights": 28,
+    "MMA Fights": 17
+  },
+  {
+    "Name": "Ariane Carnelossi",
+    "Country": "Brazil",
+    "Weight Class": "Strawweight",
+    "Age": 32,
+    "Height": 62,
+    "UFC Fights": 5,
+    "MMA Fights": 25
+  },
+  {
+    "Name": "Luana Pinheiro",
+    "Country": "Brazil",
+    "Weight Class": "Strawweight",
+    "Age": 31,
+    "Height": 62,
+    "UFC Fights": 6,
+    "MMA Fights": 35
+  },
+  {
+    "Name": "Rayanne dos Santos",
+    "Country": "Brazil",
+    "Weight Class": "Strawweight",
+    "Age": 29,
+    "Height": 62,
+    "UFC Fights": 2,
+    "MMA Fights": 16
+  },
+  {
+    "Name": "Julia Polastri",
+    "Country": "Brazil",
+    "Weight Class": "Strawweight",
+    "Age": 27,
+    "Height": 62,
+    "UFC Fights": 2,
+    "MMA Fights": 18
+  },
+  {
+    "Name": "Tabatha Ricci",
+    "Country": "Brazil",
+    "Weight Class": "Strawweight",
+    "Age": 30,
+    "Height": 61,
+    "UFC Fights": 9,
+    "MMA Fights": 7
+  },
+  {
+    "Name": "Talita Alencar",
+    "Country": "Brazil",
+    "Weight Class": "Strawweight",
+    "Age": 34,
+    "Height": 61,
+    "UFC Fights": 2,
+    "MMA Fights": 17
+  },
+  {
+    "Name": "Ateba Abega Gautier",
+    "Country": "Cameroon",
+    "Weight Class": "Middleweight",
+    "Age": 22,
+    "Height": 76,
+    "UFC Fights": 0,
+    "MMA Fights": 23
+  },
+  {
+    "Name": "Marc-André Barriault",
+    "Country": "Canada",
+    "Weight Class": "Middleweight",
+    "Age": 35,
+    "Height": 73,
+    "UFC Fights": 14,
+    "MMA Fights": 15
+  },
+  {
+    "Name": "Mike Malott",
+    "Country": "Canada",
+    "Weight Class": "Welterweight",
+    "Age": 33,
+    "Height": 73,
+    "UFC Fights": 5,
+    "MMA Fights": 14
+  },
+  {
+    "Name": "Kyle Nelson",
+    "Country": "Canada",
+    "Weight Class": "Featherweight",
+    "Age": 33,
+    "Height": 71,
+    "UFC Fights": 11,
+    "MMA Fights": 22
+  },
+  {
+    "Name": "Serhiy Sidey",
+    "Country": "Canada",
+    "Weight Class": "Bantamweight",
+    "Age": 28,
+    "Height": 71,
+    "UFC Fights": 2,
+    "MMA Fights": 13
+  },
+  {
+    "Name": "Charles Jourdain",
+    "Country": "Canada",
+    "Weight Class": "Bantamweight",
+    "Age": 29,
+    "Height": 69,
+    "UFC Fights": 15,
+    "MMA Fights": 26
+  },
+  {
+    "Name": "Hakeem Dawodu",
+    "Country": "Canada",
+    "Weight Class": "Featherweight",
+    "Age": 33,
+    "Height": 68,
+    "UFC Fights": 10,
+    "MMA Fights": 38
+  },
+  {
+    "Name": "Aiemann Zahabi",
+    "Country": "Canada",
+    "Weight Class": "Bantamweight",
+    "Age": 37,
+    "Height": 68,
+    "UFC Fights": 8,
+    "MMA Fights": 28
+  },
+  {
+    "Name": "Gavin Tucker",
+    "Country": "Canada",
+    "Weight Class": "Featherweight",
+    "Age": 38,
+    "Height": 67,
+    "UFC Fights": 7,
+    "MMA Fights": 28
+  },
+  {
+    "Name": "Jasmine Jasudavicius",
+    "Country": "Canada",
+    "Weight Class": "Flyweight",
+    "Age": 36,
+    "Height": 67,
+    "UFC Fights": 9,
+    "MMA Fights": 31
+  },
+  {
+    "Name": "Jamey-Lyn Horth",
+    "Country": "Canada",
+    "Weight Class": "Flyweight",
+    "Age": 34,
+    "Height": 67,
+    "UFC Fights": 4,
+    "MMA Fights": 26
+  },
+  {
+    "Name": "Brad Katona",
+    "Country": "Canada",
+    "Weight Class": "Bantamweight",
+    "Age": 33,
+    "Height": 66,
+    "UFC Fights": 8,
+    "MMA Fights": 23
+  },
+  {
+    "Name": "Chad Anheliger",
+    "Country": "Canada",
+    "Weight Class": "Bantamweight",
+    "Age": 38,
+    "Height": 66,
+    "UFC Fights": 5,
+    "MMA Fights": 31
+  },
+  {
+    "Name": "Gillian Robertson",
+    "Country": "Canada",
+    "Weight Class": "Strawweight",
+    "Age": 29,
+    "Height": 62,
+    "UFC Fights": 18,
+    "MMA Fights": 26
+  },
+  {
+    "Name": "Ignacio Bahamondes",
+    "Country": "Chile",
+    "Weight Class": "Lightweight",
+    "Age": 27,
+    "Height": 75,
+    "UFC Fights": 8,
+    "MMA Fights": 15
+  },
+  {
+    "Name": "Zhang Mingyang",
+    "Country": "China",
+    "Weight Class": "Light Heavyweight",
+    "Age": 26,
+    "Height": 74,
+    "UFC Fights": 2,
+    "MMA Fights": 19
+  },
+  {
+    "Name": "Li Jingliang",
+    "Country": "China",
+    "Weight Class": "Welterweight",
+    "Age": 37,
+    "Height": 72,
+    "UFC Fights": 18,
+    "MMA Fights": 26
+  },
+  {
+    "Name": "Song Kenan",
+    "Country": "China",
+    "Weight Class": "Welterweight",
+    "Age": 35,
+    "Height": 72,
+    "UFC Fights": 11,
+    "MMA Fights": 17
+  },
+  {
+    "Name": "Hayisaer Maheshate",
+    "Country": "China",
+    "Weight Class": "Lightweight",
+    "Age": 25,
+    "Height": 72,
+    "UFC Fights": 5,
+    "MMA Fights": 27
+  },
+  {
+    "Name": "Rong Zhu",
+    "Country": "China",
+    "Weight Class": "Lightweight",
+    "Age": 25,
+    "Height": 69,
+    "UFC Fights": 5,
+    "MMA Fights": 9
+  },
+  {
+    "Name": "Jieleyisi Baergeng",
+    "Country": "China",
+    "Weight Class": "Bantamweight",
+    "Age": 29,
+    "Height": 69,
+    "UFC Fights": 1,
+    "MMA Fights": 14
+  },
+  {
+    "Name": "Shayilan Nuerdanbieke",
+    "Country": "China",
+    "Weight Class": "Featherweight",
+    "Age": 30,
+    "Height": 68,
+    "UFC Fights": 6,
+    "MMA Fights": 9
+  },
+  {
+    "Name": "Su Mudaerji",
+    "Country": "China",
+    "Weight Class": "Bantamweight",
+    "Age": 29,
+    "Height": 68,
+    "UFC Fights": 7,
+    "MMA Fights": 36
+  },
+  {
+    "Name": "Long Xiao",
+    "Country": "China",
+    "Weight Class": "Bantamweight",
+    "Age": 26,
+    "Height": 68,
+    "UFC Fights": 2,
+    "MMA Fights": 14
+  },
+  {
+    "Name": "Feng Xiaocan",
+    "Country": "China",
+    "Weight Class": "Strawweight",
+    "Age": 23,
+    "Height": 68,
+    "UFC Fights": 1,
+    "MMA Fights": 14
+  },
+  {
+    "Name": "Yi Zha",
+    "Country": "China",
+    "Weight Class": "Featherweight",
+    "Age": 28,
+    "Height": 67,
+    "UFC Fights": 1,
+    "MMA Fights": 9
+  },
+  {
+    "Name": "Aori Qileng",
+    "Country": "China",
+    "Weight Class": "Bantamweight",
+    "Age": 31,
+    "Height": 67,
+    "UFC Fights": 8,
+    "MMA Fights": 11
+  },
+  {
+    "Name": "Song Yadong",
+    "Country": "China",
+    "Weight Class": "Bantamweight",
+    "Age": 27,
+    "Height": 66,
+    "UFC Fights": 15,
+    "MMA Fights": 9
+  },
+  {
+    "Name": "Alateng Heili",
+    "Country": "China",
+    "Weight Class": "Bantamweight",
+    "Age": 33,
+    "Height": 66,
+    "UFC Fights": 8,
+    "MMA Fights": 19
+  },
+  {
+    "Name": "Wang Cong",
+    "Country": "China",
+    "Weight Class": "Flyweight",
+    "Age": 32,
+    "Height": 66,
+    "UFC Fights": 3,
+    "MMA Fights": 22
+  },
+  {
+    "Name": "Yan Xiaonan",
+    "Country": "China",
+    "Weight Class": "Strawweight",
+    "Age": 35,
+    "Height": 65,
+    "UFC Fights": 12,
+    "MMA Fights": 17
+  },
+  {
+    "Name": "Zhang Weili",
+    "Country": "China",
+    "Weight Class": "Strawweight",
+    "Age": 35,
+    "Height": 63,
+    "UFC Fights": 12,
+    "MMA Fights": 26
+  },
+  {
+    "Name": "Shi Ming",
+    "Country": "China",
+    "Weight Class": "Strawweight",
+    "Age": 30,
+    "Height": 63,
+    "UFC Fights": 1,
+    "MMA Fights": 13
+  },
+  {
+    "Name": "Ivan Erslan",
+    "Country": "Croatia",
+    "Weight Class": "Light Heavyweight",
+    "Age": 33,
+    "Height": 74,
+    "UFC Fights": 1,
+    "MMA Fights": 22
+  },
+  {
+    "Name": "Jiří Procházka",
+    "Country": "Czech Republic",
+    "Weight Class": "Light Heavyweight",
+    "Age": 32,
+    "Height": 76,
+    "UFC Fights": 7,
+    "MMA Fights": 35
+  },
+  {
+    "Name": "Tereza Bledá",
+    "Country": "Czech Republic",
+    "Weight Class": "Flyweight",
+    "Age": 23,
+    "Height": 69,
+    "UFC Fights": 2,
+    "MMA Fights": 26
+  },
+  {
+    "Name": "Josias Musasa",
+    "Country": "Democratic Republic of the Congo",
+    "Weight Class": "Bantamweight",
+    "Age": 26,
+    "Height": 68,
+    "UFC Fights": 1,
+    "MMA Fights": 28
+  },
+  {
+    "Name": "Nicolas Dalby",
+    "Country": "Denmark",
+    "Weight Class": "Welterweight",
+    "Age": 40,
+    "Height": 71,
+    "UFC Fights": 14,
+    "MMA Fights": 22
+  },
+  {
+    "Name": "Damir Hadžović",
+    "Country": "Denmark",
+    "Weight Class": "Lightweight",
+    "Age": 38,
+    "Height": 71,
+    "UFC Fights": 10,
+    "MMA Fights": 35
+  },
+  {
+    "Name": "Waldo Cortes-Acosta",
+    "Country": "Dominican Republic",
+    "Weight Class": "Heavyweight",
+    "Age": 33,
+    "Height": 76,
+    "UFC Fights": 7,
+    "MMA Fights": 31
+  },
+  {
+    "Name": "Michael Morales",
+    "Country": "Ecuador",
+    "Weight Class": "Welterweight",
+    "Age": 25,
+    "Height": 72,
+    "UFC Fights": 5,
+    "MMA Fights": 34
+  },
+  {
+    "Name": "Marlon Vera",
+    "Country": "Ecuador",
+    "Weight Class": "Bantamweight",
+    "Age": 32,
+    "Height": 68,
+    "UFC Fights": 24,
+    "MMA Fights": 37
+  },
+  {
+    "Name": "Carlos Vera",
+    "Country": "Ecuador",
+    "Weight Class": "Bantamweight",
+    "Age": 37,
+    "Height": 66,
+    "UFC Fights": 2,
+    "MMA Fights": 26
+  },
+  {
+    "Name": "Hamdy Abdelwahab",
+    "Country": "Egypt",
+    "Weight Class": "Heavyweight",
+    "Age": 32,
+    "Height": 74,
+    "UFC Fights": 2,
+    "MMA Fights": 22
+  },
+  {
+    "Name": "Tom Aspinall",
+    "Country": "England",
+    "Weight Class": "Heavyweight",
+    "Age": 31,
+    "Height": 77,
+    "UFC Fights": 9,
+    "MMA Fights": 17
+  },
+  {
+    "Name": "Mick Parkin",
+    "Country": "England",
+    "Weight Class": "Heavyweight",
+    "Age": 29,
+    "Height": 76,
+    "UFC Fights": 5,
+    "MMA Fights": 19
+  },
+  {
+    "Name": "Tuco Tokkos",
+    "Country": "England",
+    "Weight Class": "Light Heavyweight",
+    "Age": 34,
+    "Height": 76,
+    "UFC Fights": 2,
+    "MMA Fights": 15
+  },
+  {
+    "Name": "Michael Page",
+    "Country": "England",
+    "Weight Class": "Middleweight",
+    "Age": 37,
+    "Height": 75,
+    "UFC Fights": 3,
+    "MMA Fights": 15
+  },
+  {
+    "Name": "Sam Patterson",
+    "Country": "England",
+    "Weight Class": "Welterweight",
+    "Age": 28,
+    "Height": 75,
+    "UFC Fights": 4,
+    "MMA Fights": 28
+  },
+  {
+    "Name": "Christian Leroy Duncan",
+    "Country": "England",
+    "Weight Class": "Middleweight",
+    "Age": 29,
+    "Height": 74,
+    "UFC Fights": 6,
+    "MMA Fights": 15
+  },
+  {
+    "Name": "Jai Herbert",
+    "Country": "England",
+    "Weight Class": "Lightweight",
+    "Age": 36,
+    "Height": 73,
+    "UFC Fights": 9,
+    "MMA Fights": 30
+  },
+  {
+    "Name": "Leon Edwards",
+    "Country": "England",
+    "Weight Class": "Welterweight",
+    "Age": 33,
+    "Height": 72,
+    "UFC Fights": 19,
+    "MMA Fights": 27
+  },
+  {
+    "Name": "Paddy Pimblett",
+    "Country": "England",
+    "Weight Class": "Lightweight",
+    "Age": 30,
+    "Height": 70,
+    "UFC Fights": 6,
+    "MMA Fights": 22
+  },
+  {
+    "Name": "Jordan Vucenic",
+    "Country": "England",
+    "Weight Class": "Lightweight",
+    "Age": 29,
+    "Height": 70,
+    "UFC Fights": 2,
+    "MMA Fights": 16
+  },
+  {
+    "Name": "Lerone Murphy",
+    "Country": "England",
+    "Weight Class": "Featherweight",
+    "Age": 33,
+    "Height": 70,
+    "UFC Fights": 8,
+    "MMA Fights": 31
+  },
+  {
+    "Name": "Kierandip Singh Sahota",
+    "Country": "England",
+    "Weight Class": "Flyweight",
+    "Age": 29,
+    "Height": 70,
+    "UFC Fights": 1,
+    "MMA Fights": 18
+  },
+  {
+    "Name": "Arnold Allen",
+    "Country": "England",
+    "Weight Class": "Featherweight",
+    "Age": 31,
+    "Height": 68,
+    "UFC Fights": 13,
+    "MMA Fights": 18
+  },
+  {
+    "Name": "Davey Grant",
+    "Country": "England",
+    "Weight Class": "Bantamweight",
+    "Age": 39,
+    "Height": 68,
+    "UFC Fights": 13,
+    "MMA Fights": 14
+  },
+  {
+    "Name": "Nathan Fletcher",
+    "Country": "England",
+    "Weight Class": "Bantamweight",
+    "Age": 27,
+    "Height": 67,
+    "UFC Fights": 2,
+    "MMA Fights": 15
+  },
+  {
+    "Name": "Melissa Mullins",
+    "Country": "England",
+    "Weight Class": "Bantamweight",
+    "Age": 33,
+    "Height": 67,
+    "UFC Fights": 3,
+    "MMA Fights": 17
+  },
+  {
+    "Name": "Nathaniel Wood",
+    "Country": "England",
+    "Weight Class": "Featherweight",
+    "Age": 31,
+    "Height": 66,
+    "UFC Fights": 12,
+    "MMA Fights": 14
+  },
+  {
+    "Name": "Lone'er Kavanagh",
+    "Country": "England",
+    "Weight Class": "Flyweight",
+    "Age": 25,
+    "Height": 64,
+    "UFC Fights": 2,
+    "MMA Fights": 25
+  },
+  {
+    "Name": "Ciryl Gane",
+    "Country": "France",
+    "Weight Class": "Heavyweight",
+    "Age": 34,
+    "Height": 77,
+    "UFC Fights": 11,
+    "MMA Fights": 24
+  },
+  {
+    "Name": "Oumar Sy",
+    "Country": "France",
+    "Weight Class": "Light Heavyweight",
+    "Age": 29,
+    "Height": 76,
+    "UFC Fights": 2,
+    "MMA Fights": 18
+  },
+  {
+    "Name": "Nassourdine Imavov",
+    "Country": "France",
+    "Weight Class": "Middleweight",
+    "Age": 30,
+    "Height": 75,
+    "UFC Fights": 11,
+    "MMA Fights": 17
+  },
+  {
+    "Name": "Kevin Jousset",
+    "Country": "France",
+    "Weight Class": "Welterweight",
+    "Age": 31,
+    "Height": 74,
+    "UFC Fights": 4,
+    "MMA Fights": 10
+  },
+  {
+    "Name": "Farès Ziam",
+    "Country": "France",
+    "Weight Class": "Lightweight",
+    "Age": 28,
+    "Height": 73,
+    "UFC Fights": 9,
+    "MMA Fights": 13
+  },
+  {
+    "Name": "William Gomis",
+    "Country": "France",
+    "Weight Class": "Featherweight",
+    "Age": 27,
+    "Height": 72,
+    "UFC Fights": 5,
+    "MMA Fights": 36
+  },
+  {
+    "Name": "Benoît Saint Denis",
+    "Country": "France",
+    "Weight Class": "Lightweight",
+    "Age": 29,
+    "Height": 71,
+    "UFC Fights": 8,
+    "MMA Fights": 34
+  },
+  {
+    "Name": "Morgan Charrière",
+    "Country": "France",
+    "Weight Class": "Featherweight",
+    "Age": 29,
+    "Height": 68,
+    "UFC Fights": 4,
+    "MMA Fights": 37
+  },
+  {
+    "Name": "Nora Cornolle",
+    "Country": "France",
+    "Weight Class": "Bantamweight",
+    "Age": 35,
+    "Height": 67,
+    "UFC Fights": 3,
+    "MMA Fights": 21
+  },
+  {
+    "Name": "Manon Fiorot",
+    "Country": "France",
+    "Weight Class": "Flyweight",
+    "Age": 35,
+    "Height": 67,
+    "UFC Fights": 7,
+    "MMA Fights": 31
+  },
+  {
+    "Name": "Roman Dolidze",
+    "Country": "Georgia",
+    "Weight Class": "Middleweight",
+    "Age": 36,
+    "Height": 75,
+    "UFC Fights": 12,
+    "MMA Fights": 23
+  },
+  {
+    "Name": "Giga Chikadze",
+    "Country": "Georgia",
+    "Weight Class": "Featherweight",
+    "Age": 36,
+    "Height": 72,
+    "UFC Fights": 10,
+    "MMA Fights": 19
+  },
+  {
+    "Name": "Guram Kutateladze",
+    "Country": "Georgia",
+    "Weight Class": "Lightweight",
+    "Age": 33,
+    "Height": 71,
+    "UFC Fights": 5,
+    "MMA Fights": 19
+  },
+  {
+    "Name": "Aleksandre Topuria",
+    "Country": "Georgia",
+    "Weight Class": "Bantamweight",
+    "Age": 29,
+    "Height": 67,
+    "UFC Fights": 1,
+    "MMA Fights": 25
+  },
+  {
+    "Name": "Merab Dvalishvili",
+    "Country": "Georgia",
+    "Weight Class": "Bantamweight",
+    "Age": 34,
+    "Height": 66,
+    "UFC Fights": 14,
+    "MMA Fights": 13
+  },
+  {
+    "Name": "Abusupiyan Magomedov",
+    "Country": "Germany",
+    "Weight Class": "Middleweight",
+    "Age": 34,
+    "Height": 74,
+    "UFC Fights": 5,
+    "MMA Fights": 32
+  },
+  {
+    "Name": "Nasrat Haqparast",
+    "Country": "Germany",
+    "Weight Class": "Lightweight",
+    "Age": 29,
+    "Height": 70,
+    "UFC Fights": 14,
+    "MMA Fights": 11
+  },
+  {
+    "Name": "Ottman Azaitar",
+    "Country": "Germany",
+    "Weight Class": "Lightweight",
+    "Age": 35,
+    "Height": 68,
+    "UFC Fights": 5,
+    "MMA Fights": 11
+  },
+  {
+    "Name": "Brogan Walker",
+    "Country": "Guam",
+    "Weight Class": "Flyweight",
+    "Age": 35,
+    "Height": 64,
+    "UFC Fights": 2,
+    "MMA Fights": 10
+  },
+  {
+    "Name": "Carlston Harris",
+    "Country": "Guyana",
+    "Weight Class": "Welterweight",
+    "Age": 37,
+    "Height": 72,
+    "UFC Fights": 7,
+    "MMA Fights": 21
+  },
+  {
+    "Name": "Gunnar Nelson",
+    "Country": "Iceland",
+    "Weight Class": "Welterweight",
+    "Age": 36,
+    "Height": 71,
+    "UFC Fights": 16,
+    "MMA Fights": 22
+  },
+  {
+    "Name": "Anshul Jubli",
+    "Country": "India",
+    "Weight Class": "Lightweight",
+    "Age": 30,
+    "Height": 72,
+    "UFC Fights": 3,
+    "MMA Fights": 13
+  },
+  {
+    "Name": "Puja Tomar",
+    "Country": "India",
+    "Weight Class": "Strawweight",
+    "Age": 31,
+    "Height": 57,
+    "UFC Fights": 2,
+    "MMA Fights": 14
+  },
+  {
+    "Name": "Jeka Saragih",
+    "Country": "Indonesia",
+    "Weight Class": "Featherweight",
+    "Age": 30,
+    "Height": 68,
+    "UFC Fights": 3,
+    "MMA Fights": 44
+  },
+  {
+    "Name": "Amir Albazi",
+    "Country": "Iraq",
+    "Weight Class": "Flyweight",
+    "Age": 31,
+    "Height": 65,
+    "UFC Fights": 6,
+    "MMA Fights": 19
+  },
+  {
+    "Name": "Yanal Ashmouz",
+    "Country": "Israel",
+    "Weight Class": "Lightweight",
+    "Age": 29,
+    "Height": 69,
+    "UFC Fights": 3,
+    "MMA Fights": 15
+  },
+  {
+    "Name": "Marvin Vettori",
+    "Country": "Italy",
+    "Weight Class": "Middleweight",
+    "Age": 31,
+    "Height": 72,
+    "UFC Fights": 16,
+    "MMA Fights": 30
+  },
+  {
+    "Name": "Manolo Zecchini",
+    "Country": "Italy",
+    "Weight Class": "Featherweight",
+    "Age": 28,
+    "Height": 68,
+    "UFC Fights": 1,
+    "MMA Fights": 28
+  },
+  {
+    "Name": "Randy Brown",
+    "Country": "Jamaica",
+    "Weight Class": "Welterweight",
+    "Age": 34,
+    "Height": 75,
+    "UFC Fights": 19,
+    "MMA Fights": 16
+  },
+  {
+    "Name": "Ode' Osbourne",
+    "Country": "Jamaica",
+    "Weight Class": "Flyweight",
+    "Age": 33,
+    "Height": 67,
+    "UFC Fights": 10,
+    "MMA Fights": 16
+  },
+  {
+    "Name": "Yusaku Kinoshita",
+    "Country": "Japan",
+    "Weight Class": "Welterweight",
+    "Age": 24,
+    "Height": 72,
+    "UFC Fights": 2,
+    "MMA Fights": 15
+  },
+  {
+    "Name": "Kai Asakura",
+    "Country": "Japan",
+    "Weight Class": "Flyweight",
+    "Age": 31,
+    "Height": 68,
+    "UFC Fights": 1,
+    "MMA Fights": 11
+  },
+  {
+    "Name": "Rinya Nakamura",
+    "Country": "Japan",
+    "Weight Class": "Bantamweight",
+    "Age": 30,
+    "Height": 67,
+    "UFC Fights": 4,
+    "MMA Fights": 15
+  },
+  {
+    "Name": "Toshiomi Kazama",
+    "Country": "Japan",
+    "Weight Class": "Bantamweight",
+    "Age": 27,
+    "Height": 67,
+    "UFC Fights": 3,
+    "MMA Fights": 12
+  },
+  {
+    "Name": "Tatsuro Taira",
+    "Country": "Japan",
+    "Weight Class": "Flyweight",
+    "Age": 25,
+    "Height": 67,
+    "UFC Fights": 7,
+    "MMA Fights": 10
+  },
+  {
+    "Name": "Rei Tsuruya",
+    "Country": "Japan",
+    "Weight Class": "Flyweight",
+    "Age": 22,
+    "Height": 66,
+    "UFC Fights": 2,
+    "MMA Fights": 46
+  },
+  {
+    "Name": "Mizuki Inoue",
+    "Country": "Japan",
+    "Weight Class": "Strawweight",
+    "Age": 30,
+    "Height": 64,
+    "UFC Fights": 3,
+    "MMA Fights": 51
+  },
+  {
+    "Name": "Diyar Nurgozhay",
+    "Country": "Kazakhstan",
+    "Weight Class": "Light Heavyweight",
+    "Age": 27,
+    "Height": 74,
+    "UFC Fights": 1,
+    "MMA Fights": 18
+  },
+  {
+    "Name": "Shavkat Rakhmonov",
+    "Country": "Kazakhstan",
+    "Weight Class": "Welterweight",
+    "Age": 30,
+    "Height": 73,
+    "UFC Fights": 7,
+    "MMA Fights": 29
+  },
+  {
+    "Name": "Bekzat Almakhan",
+    "Country": "Kazakhstan",
+    "Weight Class": "Bantamweight",
+    "Age": 27,
+    "Height": 67,
+    "UFC Fights": 1,
+    "MMA Fights": 28
+  },
+  {
+    "Name": "Azat Maksum",
+    "Country": "Kazakhstan",
+    "Weight Class": "Flyweight",
+    "Age": 30,
+    "Height": 67,
+    "UFC Fights": 2,
+    "MMA Fights": 23
+  },
+  {
+    "Name": "Asu Almabayev",
+    "Country": "Kazakhstan",
+    "Weight Class": "Flyweight",
+    "Age": 31,
+    "Height": 64,
+    "UFC Fights": 5,
+    "MMA Fights": 26
+  },
+  {
+    "Name": "Myktybek Orolbai",
+    "Country": "Kyrgyzstan",
+    "Weight Class": "Lightweight",
+    "Age": 27,
+    "Height": 70,
+    "UFC Fights": 3,
+    "MMA Fights": 25
+  },
+  {
+    "Name": "Valentina Shevchenko",
+    "Country": "Kyrgyzstan",
+    "Weight Class": "Flyweight",
+    "Age": 37,
+    "Height": 65,
+    "UFC Fights": 17,
+    "MMA Fights": 28
+  },
+  {
+    "Name": "Modestas Bukauskas",
+    "Country": "Lithuania",
+    "Weight Class": "Light Heavyweight",
+    "Age": 31,
+    "Height": 75,
+    "UFC Fights": 9,
+    "MMA Fights": 23
+  },
+  {
+    "Name": "Ernesta Kareckaite",
+    "Country": "Lithuania",
+    "Weight Class": "Flyweight",
+    "Age": 26,
+    "Height": 69,
+    "UFC Fights": 2,
+    "MMA Fights": 25
+  },
+  {
+    "Name": "Julija Stoliarenko",
+    "Country": "Lithuania",
+    "Weight Class": "Flyweight",
+    "Age": 31,
+    "Height": 67,
+    "UFC Fights": 8,
+    "MMA Fights": 18
+  },
+  {
+    "Name": "Daniel Zellhuber",
+    "Country": "Mexico",
+    "Weight Class": "Lightweight",
+    "Age": 25,
+    "Height": 73,
+    "UFC Fights": 5,
+    "MMA Fights": 21
+  },
+  {
+    "Name": "Fernando Padilla",
+    "Country": "Mexico",
+    "Weight Class": "Featherweight",
+    "Age": 28,
+    "Height": 73,
+    "UFC Fights": 4,
+    "MMA Fights": 12
+  },
+  {
+    "Name": "Yair Rodríguez",
+    "Country": "Mexico",
+    "Weight Class": "Featherweight",
+    "Age": 32,
+    "Height": 71,
+    "UFC Fights": 16,
+    "MMA Fights": 9
+  },
+  {
+    "Name": "Manuel Torres",
+    "Country": "Mexico",
+    "Weight Class": "Lightweight",
+    "Age": 30,
+    "Height": 70,
+    "UFC Fights": 4,
+    "MMA Fights": 16
+  },
+  {
+    "Name": "Raul Rosas Jr.",
+    "Country": "Mexico",
+    "Weight Class": "Bantamweight",
+    "Age": 20,
+    "Height": 69,
+    "UFC Fights": 5,
+    "MMA Fights": 14
+  },
+  {
+    "Name": "Irene Aldana",
+    "Country": "Mexico",
+    "Weight Class": "Bantamweight",
+    "Age": 37,
+    "Height": 69,
+    "UFC Fights": 14,
+    "MMA Fights": 16
+  },
+  {
+    "Name": "Cristian Quiñónez",
+    "Country": "Mexico",
+    "Weight Class": "Bantamweight",
+    "Age": 28,
+    "Height": 68,
+    "UFC Fights": 3,
+    "MMA Fights": 11
+  },
+  {
+    "Name": "Montserrat Rendon",
+    "Country": "Mexico",
+    "Weight Class": "Bantamweight",
+    "Age": 36,
+    "Height": 68,
+    "UFC Fights": 2,
+    "MMA Fights": 11
+  },
+  {
+    "Name": "Rafa García",
+    "Country": "Mexico",
+    "Weight Class": "Lightweight",
+    "Age": 30,
+    "Height": 67,
+    "UFC Fights": 8,
+    "MMA Fights": 17
+  },
+  {
+    "Name": "Roberto Romero",
+    "Country": "Mexico",
+    "Weight Class": "Lightweight",
+    "Age": 25,
+    "Height": 67,
+    "UFC Fights": 1,
+    "MMA Fights": 40
+  },
+  {
+    "Name": "Brandon Moreno",
+    "Country": "Mexico",
+    "Weight Class": "Flyweight",
+    "Age": 31,
+    "Height": 67,
+    "UFC Fights": 18,
+    "MMA Fights": 37
+  },
+  {
+    "Name": "Édgar Cháirez",
+    "Country": "Mexico",
+    "Weight Class": "Flyweight",
+    "Age": 29,
+    "Height": 67,
+    "UFC Fights": 4,
+    "MMA Fights": 21
+  },
+  {
+    "Name": "Ronaldo Rodríguez",
+    "Country": "Mexico",
+    "Weight Class": "Flyweight",
+    "Age": 25,
+    "Height": 66,
+    "UFC Fights": 2,
+    "MMA Fights": 19
+  },
+  {
+    "Name": "David Martinez",
+    "Country": "Mexico",
+    "Weight Class": "Bantamweight",
+    "Age": 26,
+    "Height": 65,
+    "UFC Fights": 0,
+    "MMA Fights": 16
+  },
+  {
+    "Name": "Alexa Grasso",
+    "Country": "Mexico",
+    "Weight Class": "Flyweight",
+    "Age": 31,
+    "Height": 65,
+    "UFC Fights": 13,
+    "MMA Fights": 25
+  },
+  {
+    "Name": "Jesús Santos Aguilar",
+    "Country": "Mexico",
+    "Weight Class": "Flyweight",
+    "Age": 29,
+    "Height": 64,
+    "UFC Fights": 5,
+    "MMA Fights": 23
+  },
+  {
+    "Name": "Yazmin Jauregui",
+    "Country": "Mexico",
+    "Weight Class": "Strawweight",
+    "Age": 26,
+    "Height": 63,
+    "UFC Fights": 5,
+    "MMA Fights": 29
+  },
+  {
+    "Name": "Loopy Godinez",
+    "Country": "Mexico",
+    "Weight Class": "Strawweight",
+    "Age": 31,
+    "Height": 62,
+    "UFC Fights": 12,
+    "MMA Fights": 29
+  },
+  {
+    "Name": "Melissa Martinez",
+    "Country": "Mexico",
+    "Weight Class": "Strawweight",
+    "Age": 27,
+    "Height": 62,
+    "UFC Fights": 2,
+    "MMA Fights": 13
+  },
+  {
+    "Name": "Montserrat Ruiz",
+    "Country": "Mexico",
+    "Weight Class": "Strawweight",
+    "Age": 32,
+    "Height": 60,
+    "UFC Fights": 4,
+    "MMA Fights": 32
+  },
+  {
+    "Name": "Serghei Spivac",
+    "Country": "Moldova",
+    "Weight Class": "Heavyweight",
+    "Age": 30,
+    "Height": 75,
+    "UFC Fights": 13,
+    "MMA Fights": 16
+  },
+  {
+    "Name": "Ion Cuțelaba",
+    "Country": "Moldova",
+    "Weight Class": "Light Heavyweight",
+    "Age": 31,
+    "Height": 73,
+    "UFC Fights": 18,
+    "MMA Fights": 24
+  },
+  {
+    "Name": "Nyamjargal Tumendemberel",
+    "Country": "Mongolia",
+    "Weight Class": "Flyweight",
+    "Age": 27,
+    "Height": 67,
+    "UFC Fights": 1,
+    "MMA Fights": 10
+  },
+  {
+    "Name": "Youssef Zalal",
+    "Country": "Morocco",
+    "Weight Class": "Featherweight",
+    "Age": 28,
+    "Height": 70,
+    "UFC Fights": 11,
+    "MMA Fights": 16
+  },
+  {
+    "Name": "Joshua Van",
+    "Country": "Myanmar",
+    "Weight Class": "Flyweight",
+    "Age": 23,
+    "Height": 65,
+    "UFC Fights": 7,
+    "MMA Fights": 15
+  },
+  {
+    "Name": "Reinier de Ridder",
+    "Country": "Netherlands",
+    "Weight Class": "Middleweight",
+    "Age": 34,
+    "Height": 76,
+    "UFC Fights": 2,
+    "MMA Fights": 32
+  },
+  {
+    "Name": "Carlos Ulberg",
+    "Country": "New Zealand",
+    "Weight Class": "Light Heavyweight",
+    "Age": 34,
+    "Height": 76,
+    "UFC Fights": 9,
+    "MMA Fights": 29
+  },
+  {
+    "Name": "Navajo Stirling",
+    "Country": "New Zealand",
+    "Weight Class": "Light Heavyweight",
+    "Age": 27,
+    "Height": 76,
+    "UFC Fights": 1,
+    "MMA Fights": 15
+  },
+  {
+    "Name": "Dan Hooker",
+    "Country": "New Zealand",
+    "Weight Class": "Lightweight",
+    "Age": 35,
+    "Height": 72,
+    "UFC Fights": 22,
+    "MMA Fights": 19
+  },
+  {
+    "Name": "Brad Riddell",
+    "Country": "New Zealand",
+    "Weight Class": "Lightweight",
+    "Age": 33,
+    "Height": 68,
+    "UFC Fights": 7,
+    "MMA Fights": 17
+  },
+  {
+    "Name": "Kai Kara-France",
+    "Country": "New Zealand",
+    "Weight Class": "Flyweight",
+    "Age": 32,
+    "Height": 65,
+    "UFC Fights": 12,
+    "MMA Fights": 7
+  },
+  {
+    "Name": "Kennedy Nzechukwu",
+    "Country": "Nigeria",
+    "Weight Class": "Heavyweight",
+    "Age": 32,
+    "Height": 77,
+    "UFC Fights": 13,
+    "MMA Fights": 12
+  },
+  {
+    "Name": "Israel Adesanya",
+    "Country": "Nigeria",
+    "Weight Class": "Middleweight",
+    "Age": 35,
+    "Height": 76,
+    "UFC Fights": 18,
+    "MMA Fights": 21
+  },
+  {
+    "Name": "Mohammed Usman",
+    "Country": "Nigeria",
+    "Weight Class": "Heavyweight",
+    "Age": 35,
+    "Height": 74,
+    "UFC Fights": 5,
+    "MMA Fights": 14
+  },
+  {
+    "Name": "Kamaru Usman",
+    "Country": "Nigeria",
+    "Weight Class": "Middleweight",
+    "Age": 37,
+    "Height": 72,
+    "UFC Fights": 16,
+    "MMA Fights": 40
+  },
+  {
+    "Name": "Sodiq Yusuff",
+    "Country": "Nigeria",
+    "Weight Class": "Featherweight",
+    "Age": 31,
+    "Height": 69,
+    "UFC Fights": 9,
+    "MMA Fights": 42
+  },
+  {
+    "Name": "Jack Hermansson",
+    "Country": "Norway",
+    "Weight Class": "Middleweight",
+    "Age": 36,
+    "Height": 73,
+    "UFC Fights": 17,
+    "MMA Fights": 28
+  },
+  {
+    "Name": "Ivana Petrović",
+    "Country": "Norway",
+    "Weight Class": "Flyweight",
+    "Age": 30,
+    "Height": 68,
+    "UFC Fights": 3,
+    "MMA Fights": 21
+  },
+  {
+    "Name": "Abdul-Kareem Al-Selwady",
+    "Country": "Palestine",
+    "Weight Class": "Lightweight",
+    "Age": 29,
+    "Height": 68,
+    "UFC Fights": 1,
+    "MMA Fights": 17
+  },
+  {
+    "Name": "Joselyne Edwards",
+    "Country": "Panama",
+    "Weight Class": "Bantamweight",
+    "Age": 29,
+    "Height": 66,
+    "UFC Fights": 9,
+    "MMA Fights": 24
+  },
+  {
+    "Name": "Claudio Puelles",
+    "Country": "Peru",
+    "Weight Class": "Lightweight",
+    "Age": 28,
+    "Height": 71,
+    "UFC Fights": 8,
+    "MMA Fights": 27
+  },
+  {
+    "Name": "Rolando Bedoya",
+    "Country": "Peru",
+    "Weight Class": "Lightweight",
+    "Age": 28,
+    "Height": 71,
+    "UFC Fights": 3,
+    "MMA Fights": 25
+  },
+  {
+    "Name": "Daniel Marcos",
+    "Country": "Peru",
+    "Weight Class": "Bantamweight",
+    "Age": 32,
+    "Height": 67,
+    "UFC Fights": 5,
+    "MMA Fights": 32
+  },
+  {
+    "Name": "Gaston Bolaños",
+    "Country": "Peru",
+    "Weight Class": "Bantamweight",
+    "Age": 32,
+    "Height": 67,
+    "UFC Fights": 3,
+    "MMA Fights": 21
+  },
+  {
+    "Name": "Kevin Borjas",
+    "Country": "Peru",
+    "Weight Class": "Flyweight",
+    "Age": 27,
+    "Height": 65,
+    "UFC Fights": 2,
+    "MMA Fights": 13
+  },
+  {
+    "Name": "Jose Ochoa",
+    "Country": "Peru",
+    "Weight Class": "Flyweight",
+    "Age": 24,
+    "Height": 64,
+    "UFC Fights": 1,
+    "MMA Fights": 9
+  },
+  {
+    "Name": "Łukasz Brzeski",
+    "Country": "Poland",
+    "Weight Class": "Heavyweight",
+    "Age": 32,
+    "Height": 76,
+    "UFC Fights": 6,
+    "MMA Fights": 17
+  },
+  {
+    "Name": "Marcin Tybura",
+    "Country": "Poland",
+    "Weight Class": "Heavyweight",
+    "Age": 39,
+    "Height": 75,
+    "UFC Fights": 22,
+    "MMA Fights": 12
+  },
+  {
+    "Name": "Marcin Prachnio",
+    "Country": "Poland",
+    "Weight Class": "Light Heavyweight",
+    "Age": 36,
+    "Height": 75,
+    "UFC Fights": 10,
+    "MMA Fights": 22
+  },
+  {
+    "Name": "Jan Błachowicz",
+    "Country": "Poland",
+    "Weight Class": "Light Heavyweight",
+    "Age": 42,
+    "Height": 74,
+    "UFC Fights": 21,
+    "MMA Fights": 8
+  },
+  {
+    "Name": "Michał Oleksiejczuk",
+    "Country": "Poland",
+    "Weight Class": "Middleweight",
+    "Age": 30,
+    "Height": 72,
+    "UFC Fights": 15,
+    "MMA Fights": 24
+  },
+  {
+    "Name": "Robert Bryczek",
+    "Country": "Poland",
+    "Weight Class": "Middleweight",
+    "Age": 34,
+    "Height": 72,
+    "UFC Fights": 1,
+    "MMA Fights": 17
+  },
+  {
+    "Name": "Mateusz Gamrot",
+    "Country": "Poland",
+    "Weight Class": "Lightweight",
+    "Age": 34,
+    "Height": 70,
+    "UFC Fights": 10,
+    "MMA Fights": 8
+  },
+  {
+    "Name": "Klaudia Syguła",
+    "Country": "Poland",
+    "Weight Class": "Bantamweight",
+    "Age": 26,
+    "Height": 68,
+    "UFC Fights": 1,
+    "MMA Fights": 24
+  },
+  {
+    "Name": "Mateusz Rębecki",
+    "Country": "Poland",
+    "Weight Class": "Lightweight",
+    "Age": 32,
+    "Height": 67,
+    "UFC Fights": 5,
+    "MMA Fights": 11
+  },
+  {
+    "Name": "Karolina Kowalkiewicz",
+    "Country": "Poland",
+    "Weight Class": "Strawweight",
+    "Age": 39,
+    "Height": 63,
+    "UFC Fights": 18,
+    "MMA Fights": 11
+  },
+  {
+    "Name": "Mário Pinto",
+    "Country": "Portugal",
+    "Weight Class": "Heavyweight",
+    "Age": 27,
+    "Height": 77,
+    "UFC Fights": 1,
+    "MMA Fights": 12
+  },
+  {
+    "Name": "Jacqueline Cavalcanti",
+    "Country": "Portugal",
+    "Weight Class": "Bantamweight",
+    "Age": 27,
+    "Height": 68,
+    "UFC Fights": 4,
+    "MMA Fights": 14
+  },
+  {
+    "Name": "Ian Machado Garry",
+    "Country": "Republic of Ireland",
+    "Weight Class": "Welterweight",
+    "Age": 27,
+    "Height": 75,
+    "UFC Fights": 9,
+    "MMA Fights": 15
+  },
+  {
+    "Name": "Rhys McKee",
+    "Country": "Republic of Ireland",
+    "Weight Class": "Welterweight",
+    "Age": 29,
+    "Height": 74,
+    "UFC Fights": 4,
+    "MMA Fights": 11
+  },
+  {
+    "Name": "Kiefer Crosbie",
+    "Country": "Republic of Ireland",
+    "Weight Class": "Welterweight",
+    "Age": 34,
+    "Height": 71,
+    "UFC Fights": 2,
+    "MMA Fights": 11
+  },
+  {
+    "Name": "Caolán Loughran",
+    "Country": "Republic of Ireland",
+    "Weight Class": "Bantamweight",
+    "Age": 28,
+    "Height": 66,
+    "UFC Fights": 4,
+    "MMA Fights": 17
+  },
+  {
+    "Name": "Shauna Bannon",
+    "Country": "Republic of Ireland",
+    "Weight Class": "Strawweight",
+    "Age": 31,
+    "Height": 65,
+    "UFC Fights": 3,
+    "MMA Fights": 25
+  },
+  {
+    "Name": "Diana Belbiţă",
+    "Country": "Romania",
+    "Weight Class": "Strawweight",
+    "Age": 28,
+    "Height": 67,
+    "UFC Fights": 7,
+    "MMA Fights": 17
+  },
+  {
+    "Name": "Alice Ardelean",
+    "Country": "Romania",
+    "Weight Class": "Strawweight",
+    "Age": 32,
+    "Height": 63,
+    "UFC Fights": 2,
+    "MMA Fights": 17
+  },
+  {
+    "Name": "Alexander Volkov",
+    "Country": "Russia",
+    "Weight Class": "Heavyweight",
+    "Age": 36,
+    "Height": 79,
+    "UFC Fights": 17,
+    "MMA Fights": 11
+  },
+  {
+    "Name": "Andrey Pulyaev",
+    "Country": "Russia",
+    "Weight Class": "Middleweight",
+    "Age": 27,
+    "Height": 76,
+    "UFC Fights": 1,
+    "MMA Fights": 25
+  },
+  {
+    "Name": "Sergei Pavlovich",
+    "Country": "Russia",
+    "Weight Class": "Heavyweight",
+    "Age": 32,
+    "Height": 75,
+    "UFC Fights": 10,
+    "MMA Fights": 16
+  },
+  {
+    "Name": "Magomed Ankalaev",
+    "Country": "Russia",
+    "Weight Class": "Light Heavyweight",
+    "Age": 32,
+    "Height": 74,
+    "UFC Fights": 15,
+    "MMA Fights": 24
+  },
+  {
+    "Name": "Sharabutdin Magomedov",
+    "Country": "Russia",
+    "Weight Class": "Middleweight",
+    "Age": 30,
+    "Height": 74,
+    "UFC Fights": 5,
+    "MMA Fights": 9
+  },
+  {
+    "Name": "Roman Kopylov",
+    "Country": "Russia",
+    "Weight Class": "Middleweight",
+    "Age": 33,
+    "Height": 72,
+    "UFC Fights": 9,
+    "MMA Fights": 26
+  },
+  {
+    "Name": "Ikram Aliskerov",
+    "Country": "Russia",
+    "Weight Class": "Middleweight",
+    "Age": 32,
+    "Height": 72,
+    "UFC Fights": 3,
+    "MMA Fights": 24
+  },
+  {
+    "Name": "Azamat Bekoev",
+    "Country": "Russia",
+    "Weight Class": "Middleweight",
+    "Age": 29,
+    "Height": 72,
+    "UFC Fights": 1,
+    "MMA Fights": 23
+  },
+  {
+    "Name": "Rinat Fakhretdinov",
+    "Country": "Russia",
+    "Weight Class": "Welterweight",
+    "Age": 33,
+    "Height": 72,
+    "UFC Fights": 6,
+    "MMA Fights": 13
+  },
+  {
+    "Name": "Muslim Salikhov",
+    "Country": "Russia",
+    "Weight Class": "Welterweight",
+    "Age": 40,
+    "Height": 71,
+    "UFC Fights": 12,
+    "MMA Fights": 11
+  },
+  {
+    "Name": "Viacheslav Borshchev",
+    "Country": "Russia",
+    "Weight Class": "Lightweight",
+    "Age": 33,
+    "Height": 71,
+    "UFC Fights": 8,
+    "MMA Fights": 24
+  },
+  {
+    "Name": "Azamat Murzakanov",
+    "Country": "Russia",
+    "Weight Class": "Light Heavyweight",
+    "Age": 35,
+    "Height": 70,
+    "UFC Fights": 4,
+    "MMA Fights": 8
+  },
+  {
+    "Name": "Islam Makhachev",
+    "Country": "Russia",
+    "Weight Class": "Lightweight",
+    "Age": 33,
+    "Height": 70,
+    "UFC Fights": 17,
+    "MMA Fights": 8
+  },
+  {
+    "Name": "Aliaskhab Khizriev",
+    "Country": "Russia",
+    "Weight Class": "Middleweight",
+    "Age": 34,
+    "Height": 69,
+    "UFC Fights": 2,
+    "MMA Fights": 6
+  },
+  {
+    "Name": "Dariya Zheleznyakova",
+    "Country": "Russia",
+    "Weight Class": "Bantamweight",
+    "Age": 29,
+    "Height": 69,
+    "UFC Fights": 2,
+    "MMA Fights": 49
+  },
+  {
+    "Name": "Movsar Evloev",
+    "Country": "Russia",
+    "Weight Class": "Featherweight",
+    "Age": 32,
+    "Height": 68,
+    "UFC Fights": 9,
+    "MMA Fights": 27
+  },
+  {
+    "Name": "Said Nurmagomedov",
+    "Country": "Russia",
+    "Weight Class": "Bantamweight",
+    "Age": 32,
+    "Height": 68,
+    "UFC Fights": 10,
+    "MMA Fights": 57
+  },
+  {
+    "Name": "Umar Nurmagomedov",
+    "Country": "Russia",
+    "Weight Class": "Bantamweight",
+    "Age": 29,
+    "Height": 68,
+    "UFC Fights": 7,
+    "MMA Fights": 42
+  },
+  {
+    "Name": "Irina Alekseeva",
+    "Country": "Russia",
+    "Weight Class": "Bantamweight",
+    "Age": 34,
+    "Height": 68,
+    "UFC Fights": 2,
+    "MMA Fights": 25
+  },
+  {
+    "Name": "Petr Yan",
+    "Country": "Russia",
+    "Weight Class": "Bantamweight",
+    "Age": 32,
+    "Height": 67,
+    "UFC Fights": 14,
+    "MMA Fights": 18
+  },
+  {
+    "Name": "Tagir Ulanbekov",
+    "Country": "Russia",
+    "Weight Class": "Flyweight",
+    "Age": 31,
+    "Height": 66,
+    "UFC Fights": 6,
+    "MMA Fights": 19
+  },
+  {
+    "Name": "Yana Santos",
+    "Country": "Russia",
+    "Weight Class": "Bantamweight",
+    "Age": 35,
+    "Height": 66,
+    "UFC Fights": 10,
+    "MMA Fights": 16
+  },
+  {
+    "Name": "Paul Craig",
+    "Country": "Scotland",
+    "Weight Class": "Middleweight",
+    "Age": 37,
+    "Height": 76,
+    "UFC Fights": 19,
+    "MMA Fights": 25
+  },
+  {
+    "Name": "Chris Duncan",
+    "Country": "Scotland",
+    "Weight Class": "Lightweight",
+    "Age": 31,
+    "Height": 70,
+    "UFC Fights": 5,
+    "MMA Fights": 16
+  },
+  {
+    "Name": "Casey O'Neill",
+    "Country": "Scotland",
+    "Weight Class": "Flyweight",
+    "Age": 27,
+    "Height": 66,
+    "UFC Fights": 7,
+    "MMA Fights": 14
+  },
+  {
+    "Name": "Duško Todorović",
+    "Country": "Serbia",
+    "Weight Class": "Middleweight",
+    "Age": 30,
+    "Height": 73,
+    "UFC Fights": 8,
+    "MMA Fights": 28
+  },
+  {
+    "Name": "Uroš Medić",
+    "Country": "Serbia",
+    "Weight Class": "Welterweight",
+    "Age": 31,
+    "Height": 73,
+    "UFC Fights": 7,
+    "MMA Fights": 32
+  },
+  {
+    "Name": "Martin Buday",
+    "Country": "Slovakia",
+    "Weight Class": "Heavyweight",
+    "Age": 33,
+    "Height": 76,
+    "UFC Fights": 6,
+    "MMA Fights": 25
+  },
+  {
+    "Name": "Ľudovít Klein",
+    "Country": "Slovakia",
+    "Weight Class": "Lightweight",
+    "Age": 30,
+    "Height": 68,
+    "UFC Fights": 10,
+    "MMA Fights": 19
+  },
+  {
+    "Name": "Dricus du Plessis",
+    "Country": "South Africa",
+    "Weight Class": "Middleweight",
+    "Age": 31,
+    "Height": 72,
+    "UFC Fights": 9,
+    "MMA Fights": 19
+  },
+  {
+    "Name": "Cameron Saaiman",
+    "Country": "South Africa",
+    "Weight Class": "Bantamweight",
+    "Age": 24,
+    "Height": 68,
+    "UFC Fights": 5,
+    "MMA Fights": 21
+  },
+  {
+    "Name": "Jun Yong Park",
+    "Country": "South Korea",
+    "Weight Class": "Middleweight",
+    "Age": 34,
+    "Height": 72,
+    "UFC Fights": 11,
+    "MMA Fights": 23
+  },
+  {
+    "Name": "Choi Seung-woo",
+    "Country": "South Korea",
+    "Weight Class": "Featherweight",
+    "Age": 32,
+    "Height": 71,
+    "UFC Fights": 11,
+    "MMA Fights": 18
+  },
+  {
+    "Name": "Choi Doo-ho",
+    "Country": "South Korea",
+    "Weight Class": "Featherweight",
+    "Age": 33,
+    "Height": 70,
+    "UFC Fights": 9,
+    "MMA Fights": 19
+  },
+  {
+    "Name": "Lee Jeong-yeong",
+    "Country": "South Korea",
+    "Weight Class": "Featherweight",
+    "Age": 29,
+    "Height": 70,
+    "UFC Fights": 3,
+    "MMA Fights": 24
+  },
+  {
+    "Name": "Lee Chang-ho",
+    "Country": "South Korea",
+    "Weight Class": "Bantamweight",
+    "Age": 30,
+    "Height": 68,
+    "UFC Fights": 1,
+    "MMA Fights": 51
+  },
+  {
+    "Name": "Park Hyun-sung",
+    "Country": "South Korea",
+    "Weight Class": "Flyweight",
+    "Age": 29,
+    "Height": 67,
+    "UFC Fights": 2,
+    "MMA Fights": 22
+  },
+  {
+    "Name": "You Su-young",
+    "Country": "South Korea",
+    "Weight Class": "Bantamweight",
+    "Age": 29,
+    "Height": 66,
+    "UFC Fights": 2,
+    "MMA Fights": 18
+  },
+  {
+    "Name": "Choi Dong-Hun",
+    "Country": "South Korea",
+    "Weight Class": "Flyweight",
+    "Age": 26,
+    "Height": 66,
+    "UFC Fights": 1,
+    "MMA Fights": 13
+  },
+  {
+    "Name": "Joel Álvarez",
+    "Country": "Spain",
+    "Weight Class": "Lightweight",
+    "Age": 32,
+    "Height": 75,
+    "UFC Fights": 9,
+    "MMA Fights": 32
+  },
+  {
+    "Name": "Ilia Topuria",
+    "Country": "Spain",
+    "Weight Class": "Featherweight",
+    "Age": 28,
+    "Height": 67,
+    "UFC Fights": 8,
+    "MMA Fights": 15
+  },
+  {
+    "Name": "Daniel Barez",
+    "Country": "Spain",
+    "Weight Class": "Flyweight",
+    "Age": 36,
+    "Height": 66,
+    "UFC Fights": 3,
+    "MMA Fights": 10
+  },
+  {
+    "Name": "Volkan Oezdemir",
+    "Country": "Switzerland",
+    "Weight Class": "Light Heavyweight",
+    "Age": 35,
+    "Height": 74,
+    "UFC Fights": 15,
+    "MMA Fights": 17
+  },
+  {
+    "Name": "Robert Valentin",
+    "Country": "Switzerland",
+    "Weight Class": "Middleweight",
+    "Age": 29,
+    "Height": 74,
+    "UFC Fights": 1,
+    "MMA Fights": 23
+  },
+  {
+    "Name": "Ange Loosa",
+    "Country": "Switzerland",
+    "Weight Class": "Welterweight",
+    "Age": 31,
+    "Height": 70,
+    "UFC Fights": 5,
+    "MMA Fights": 30
+  },
+  {
+    "Name": "Loik Radzhabov",
+    "Country": "Tajikistan",
+    "Weight Class": "Lightweight",
+    "Age": 34,
+    "Height": 71,
+    "UFC Fights": 3,
+    "MMA Fights": 34
+  },
+  {
+    "Name": "Nurullo Aliev",
+    "Country": "Tajikistan",
+    "Weight Class": "Lightweight",
+    "Age": 25,
+    "Height": 70,
+    "UFC Fights": 2,
+    "MMA Fights": 14
+  },
+  {
+    "Name": "Muhammad Naimov",
+    "Country": "Tajikistan",
+    "Weight Class": "Featherweight",
+    "Age": 30,
+    "Height": 69,
+    "UFC Fights": 5,
+    "MMA Fights": 22
+  },
+  {
+    "Name": "Muin Gafurov",
+    "Country": "Tajikistan",
+    "Weight Class": "Bantamweight",
+    "Age": 28,
+    "Height": 67,
+    "UFC Fights": 4,
+    "MMA Fights": 23
+  },
+  {
+    "Name": "Loma Lookboonmee",
+    "Country": "Thailand",
+    "Weight Class": "Strawweight",
+    "Age": 29,
+    "Height": 61,
+    "UFC Fights": 8,
+    "MMA Fights": 29
+  },
+  {
+    "Name": "İbo Aslan",
+    "Country": "Turkey",
+    "Weight Class": "Light Heavyweight",
+    "Age": 28,
+    "Height": 75,
+    "UFC Fights": 3,
+    "MMA Fights": 15
+  },
+  {
+    "Name": "David Onama",
+    "Country": "Uganda",
+    "Weight Class": "Lightweight",
+    "Age": 30,
+    "Height": 71,
+    "UFC Fights": 7,
+    "MMA Fights": 19
+  },
+  {
+    "Name": "Nikita Krylov",
+    "Country": "Ukraine",
+    "Weight Class": "Light Heavyweight",
+    "Age": 33,
+    "Height": 74,
+    "UFC Fights": 18,
+    "MMA Fights": 10
+  },
+  {
+    "Name": "Maryna Moroz",
+    "Country": "Ukraine",
+    "Weight Class": "Flyweight",
+    "Age": 33,
+    "Height": 67,
+    "UFC Fights": 12,
+    "MMA Fights": 23
+  },
+  {
+    "Name": "Khamzat Chimaev",
+    "Country": "United Arab Emirates",
+    "Weight Class": "Middleweight",
+    "Age": 30,
+    "Height": 74,
+    "UFC Fights": 8,
+    "MMA Fights": 11
+  },
+  {
+    "Name": "Mohammad Yahya",
+    "Country": "United Arab Emirates",
+    "Weight Class": "Lightweight",
+    "Age": 30,
+    "Height": 69,
+    "UFC Fights": 2,
+    "MMA Fights": 11
+  },
+  {
+    "Name": "Don'Tale Mayes",
+    "Country": "United States",
+    "Weight Class": "Heavyweight",
+    "Age": 33,
+    "Height": 78,
+    "UFC Fights": 11,
+    "MMA Fights": 13
+  },
+  {
+    "Name": "Austen Lane",
+    "Country": "United States",
+    "Weight Class": "Heavyweight",
+    "Age": 37,
+    "Height": 78,
+    "UFC Fights": 5,
+    "MMA Fights": 10
+  },
+  {
+    "Name": "Ryan Spann",
+    "Country": "United States",
+    "Weight Class": "Heavyweight",
+    "Age": 33,
+    "Height": 77,
+    "UFC Fights": 14,
+    "MMA Fights": 11
+  },
+  {
+    "Name": "Trey Waters",
+    "Country": "United States",
+    "Weight Class": "Welterweight",
+    "Age": 30,
+    "Height": 77,
+    "UFC Fights": 2,
+    "MMA Fights": 36
+  },
+  {
+    "Name": "Jon Jones",
+    "Country": "United States",
+    "Weight Class": "Heavyweight",
+    "Age": 37,
+    "Height": 76,
+    "UFC Fights": 24,
+    "MMA Fights": 9
+  },
+  {
+    "Name": "Curtis Blaydes",
+    "Country": "United States",
+    "Weight Class": "Heavyweight",
+    "Age": 34,
+    "Height": 76,
+    "UFC Fights": 19,
+    "MMA Fights": 14
+  },
+  {
+    "Name": "Dustin Jacoby",
+    "Country": "United States",
+    "Weight Class": "Light Heavyweight",
+    "Age": 36,
+    "Height": 76,
+    "UFC Fights": 15,
+    "MMA Fights": 15
+  },
+  {
+    "Name": "Anthony Smith *",
+    "Country": "United States",
+    "Weight Class": "Light Heavyweight",
+    "Age": 36,
+    "Height": 76,
+    "UFC Fights": 28,
+    "MMA Fights": 13
+  },
+  {
+    "Name": "Dominick Reyes",
+    "Country": "United States",
+    "Weight Class": "Light Heavyweight",
+    "Age": 35,
+    "Height": 76,
+    "UFC Fights": 12,
+    "MMA Fights": 26
+  },
+  {
+    "Name": "Jamahal Hill",
+    "Country": "United States",
+    "Weight Class": "Light Heavyweight",
+    "Age": 33,
+    "Height": 76,
+    "UFC Fights": 10,
+    "MMA Fights": 18
+  },
+  {
+    "Name": "Julius Walker",
+    "Country": "United States",
+    "Weight Class": "Light Heavyweight",
+    "Age": 25,
+    "Height": 76,
+    "UFC Fights": 1,
+    "MMA Fights": 9
+  },
+  {
+    "Name": "Zachary Reese",
+    "Country": "United States",
+    "Weight Class": "Middleweight",
+    "Age": 31,
+    "Height": 76,
+    "UFC Fights": 4,
+    "MMA Fights": 10
+  },
+  {
+    "Name": "Osman Diaz",
+    "Country": "United States",
+    "Weight Class": "Middleweight",
+    "Age": 34,
+    "Height": 76,
+    "UFC Fights": 2,
+    "MMA Fights": 7
+  },
+  {
+    "Name": "Derrick Lewis",
+    "Country": "United States",
+    "Weight Class": "Heavyweight",
+    "Age": 40,
+    "Height": 75,
+    "UFC Fights": 29,
+    "MMA Fights": 10
+  },
+  {
+    "Name": "Billy Elekana",
+    "Country": "United States",
+    "Weight Class": "Light Heavyweight",
+    "Age": 29,
+    "Height": 75,
+    "UFC Fights": 1,
+    "MMA Fights": 7
+  },
+  {
+    "Name": "Neil Magny",
+    "Country": "United States",
+    "Weight Class": "Welterweight",
+    "Age": 37,
+    "Height": 75,
+    "UFC Fights": 34,
+    "MMA Fights": 19
+  },
+  {
+    "Name": "Kevin Holland",
+    "Country": "United States",
+    "Weight Class": "Welterweight",
+    "Age": 32,
+    "Height": 75,
+    "UFC Fights": 25,
+    "MMA Fights": 8
+  },
+  {
+    "Name": "Philip Rowe",
+    "Country": "United States",
+    "Weight Class": "Welterweight",
+    "Age": 34,
+    "Height": 75,
+    "UFC Fights": 6,
+    "MMA Fights": 9
+  },
+  {
+    "Name": "Gilbert Urbina",
+    "Country": "United States",
+    "Weight Class": "Welterweight",
+    "Age": 28,
+    "Height": 75,
+    "UFC Fights": 3,
+    "MMA Fights": 13
+  },
+  {
+    "Name": "Chidi Njokuani",
+    "Country": "United States",
+    "Weight Class": "Welterweight",
+    "Age": 36,
+    "Height": 75,
+    "UFC Fights": 8,
+    "MMA Fights": 19
+  },
+  {
+    "Name": "Sean Sharaf",
+    "Country": "United States",
+    "Weight Class": "Heavyweight",
+    "Age": 31,
+    "Height": 74,
+    "UFC Fights": 1,
+    "MMA Fights": 22
+  },
+  {
+    "Name": "Eryk Anders",
+    "Country": "United States",
+    "Weight Class": "Middleweight",
+    "Age": 37,
+    "Height": 74,
+    "UFC Fights": 18,
+    "MMA Fights": 13
+  },
+  {
+    "Name": "Edmen Shahbazyan",
+    "Country": "United States",
+    "Weight Class": "Middleweight",
+    "Age": 27,
+    "Height": 74,
+    "UFC Fights": 12,
+    "MMA Fights": 44
+  },
+  {
+    "Name": "Brendan Allen",
+    "Country": "United States",
+    "Weight Class": "Middleweight",
+    "Age": 29,
+    "Height": 74,
+    "UFC Fights": 16,
+    "MMA Fights": 29
+  },
+  {
+    "Name": "Joe Pyfer",
+    "Country": "United States",
+    "Weight Class": "Middleweight",
+    "Age": 28,
+    "Height": 74,
+    "UFC Fights": 5,
+    "MMA Fights": 23
+  },
+  {
+    "Name": "Sedriques Dumas",
+    "Country": "United States",
+    "Weight Class": "Middleweight",
+    "Age": 29,
+    "Height": 74,
+    "UFC Fights": 5,
+    "MMA Fights": 16
+  },
+  {
+    "Name": "Ryan Loder",
+    "Country": "United States",
+    "Weight Class": "Middleweight",
+    "Age": 33,
+    "Height": 74,
+    "UFC Fights": 1,
+    "MMA Fights": 27
+  },
+  {
+    "Name": "Mansur Abdul-Malik",
+    "Country": "United States",
+    "Weight Class": "Middleweight",
+    "Age": 27,
+    "Height": 74,
+    "UFC Fights": 2,
+    "MMA Fights": 19
+  },
+  {
+    "Name": "Tim Means",
+    "Country": "United States",
+    "Weight Class": "Welterweight",
+    "Age": 41,
+    "Height": 74,
+    "UFC Fights": 30,
+    "MMA Fights": 16
+  },
+  {
+    "Name": "Mickey Gall",
+    "Country": "United States",
+    "Weight Class": "Welterweight",
+    "Age": 33,
+    "Height": 74,
+    "UFC Fights": 13,
+    "MMA Fights": 14
+  },
+  {
+    "Name": "Daniel Rodriguez",
+    "Country": "United States",
+    "Weight Class": "Welterweight",
+    "Age": 38,
+    "Height": 74,
+    "UFC Fights": 12,
+    "MMA Fights": 17
+  },
+  {
+    "Name": "Danny Barlow",
+    "Country": "United States",
+    "Weight Class": "Welterweight",
+    "Age": 29,
+    "Height": 74,
+    "UFC Fights": 3,
+    "MMA Fights": 24
+  },
+  {
+    "Name": "Sean Woodson",
+    "Country": "United States",
+    "Weight Class": "Featherweight",
+    "Age": 32,
+    "Height": 74,
+    "UFC Fights": 9,
+    "MMA Fights": 8
+  },
+  {
+    "Name": "Thomas Petersen",
+    "Country": "United States",
+    "Weight Class": "Heavyweight",
+    "Age": 29,
+    "Height": 73,
+    "UFC Fights": 3,
+    "MMA Fights": 17
+  },
+  {
+    "Name": "Khalil Rountree Jr.",
+    "Country": "United States",
+    "Weight Class": "Light Heavyweight",
+    "Age": 35,
+    "Height": 73,
+    "UFC Fights": 16,
+    "MMA Fights": 16
+  },
+  {
+    "Name": "Brad Tavares",
+    "Country": "United States",
+    "Weight Class": "Middleweight",
+    "Age": 37,
+    "Height": 73,
+    "UFC Fights": 25,
+    "MMA Fights": 16
+  },
+  {
+    "Name": "Sean Strickland",
+    "Country": "United States",
+    "Weight Class": "Middleweight",
+    "Age": 34,
+    "Height": 73,
+    "UFC Fights": 23,
+    "MMA Fights": 30
+  },
+  {
+    "Name": "Gerald Meerschaert",
+    "Country": "United States",
+    "Weight Class": "Middleweight",
+    "Age": 37,
+    "Height": 73,
+    "UFC Fights": 22,
+    "MMA Fights": 16
+  },
+  {
+    "Name": "Bo Nickal",
+    "Country": "United States",
+    "Weight Class": "Middleweight",
+    "Age": 29,
+    "Height": 73,
+    "UFC Fights": 4,
+    "MMA Fights": 41
+  },
+  {
+    "Name": "Nick Klein",
+    "Country": "United States",
+    "Weight Class": "Middleweight",
+    "Age": 29,
+    "Height": 73,
+    "UFC Fights": 1,
+    "MMA Fights": 34
+  },
+  {
+    "Name": "Michael Chiesa",
+    "Country": "United States",
+    "Weight Class": "Welterweight",
+    "Age": 37,
+    "Height": 73,
+    "UFC Fights": 20,
+    "MMA Fights": 36
+  },
+  {
+    "Name": "Bryan Battle",
+    "Country": "United States",
+    "Weight Class": "Welterweight",
+    "Age": 30,
+    "Height": 73,
+    "UFC Fights": 9,
+    "MMA Fights": 20
+  },
+  {
+    "Name": "Adam Fugitt",
+    "Country": "United States",
+    "Weight Class": "Welterweight",
+    "Age": 36,
+    "Height": 73,
+    "UFC Fights": 4,
+    "MMA Fights": 24
+  },
+  {
+    "Name": "Chase Hooper",
+    "Country": "United States",
+    "Weight Class": "Lightweight",
+    "Age": 25,
+    "Height": 73,
+    "UFC Fights": 10,
+    "MMA Fights": 23
+  },
+  {
+    "Name": "Julian Erosa",
+    "Country": "United States",
+    "Weight Class": "Featherweight",
+    "Age": 35,
+    "Height": 73,
+    "UFC Fights": 16,
+    "MMA Fights": 25
+  },
+  {
+    "Name": "Westin Wilson",
+    "Country": "United States",
+    "Weight Class": "Featherweight",
+    "Age": 36,
+    "Height": 73,
+    "UFC Fights": 3,
+    "MMA Fights": 25
+  },
+  {
+    "Name": "Alonzo Menifield",
+    "Country": "United States",
+    "Weight Class": "Light Heavyweight",
+    "Age": 37,
+    "Height": 72,
+    "UFC Fights": 15,
+    "MMA Fights": 28
+  },
+  {
+    "Name": "Anthony Hernandez",
+    "Country": "United States",
+    "Weight Class": "Middleweight",
+    "Age": 31,
+    "Height": 72,
+    "UFC Fights": 10,
+    "MMA Fights": 23
+  },
+  {
+    "Name": "Andre Petroski",
+    "Country": "United States",
+    "Weight Class": "Middleweight",
+    "Age": 33,
+    "Height": 72,
+    "UFC Fights": 10,
+    "MMA Fights": 25
+  },
+  {
+    "Name": "Cody Brundage",
+    "Country": "United States",
+    "Weight Class": "Middleweight",
+    "Age": 30,
+    "Height": 72,
+    "UFC Fights": 11,
+    "MMA Fights": 38
+  },
+  {
+    "Name": "Tresean Gore",
+    "Country": "United States",
+    "Weight Class": "Middleweight",
+    "Age": 30,
+    "Height": 72,
+    "UFC Fights": 4,
+    "MMA Fights": 32
+  },
+  {
+    "Name": "Eric McConico",
+    "Country": "United States",
+    "Weight Class": "Middleweight",
+    "Age": 34,
+    "Height": 72,
+    "UFC Fights": 1,
+    "MMA Fights": 13
+  },
+  {
+    "Name": "Stephen Thompson",
+    "Country": "United States",
+    "Weight Class": "Welterweight",
+    "Age": 42,
+    "Height": 72,
+    "UFC Fights": 21,
+    "MMA Fights": 14
+  },
+  {
+    "Name": "Max Griffin",
+    "Country": "United States",
+    "Weight Class": "Welterweight",
+    "Age": 39,
+    "Height": 72,
+    "UFC Fights": 17,
+    "MMA Fights": 15
+  },
+  {
+    "Name": "Niko Price",
+    "Country": "United States",
+    "Weight Class": "Welterweight",
+    "Age": 35,
+    "Height": 72,
+    "UFC Fights": 18,
+    "MMA Fights": 7
+  },
+  {
+    "Name": "Trevin Giles",
+    "Country": "United States",
+    "Weight Class": "Welterweight",
+    "Age": 32,
+    "Height": 72,
+    "UFC Fights": 14,
+    "MMA Fights": 18
+  },
+  {
+    "Name": "Punahele Soriano",
+    "Country": "United States",
+    "Weight Class": "Welterweight",
+    "Age": 32,
+    "Height": 72,
+    "UFC Fights": 9,
+    "MMA Fights": 15
+  },
+  {
+    "Name": "Khaos Williams",
+    "Country": "United States",
+    "Weight Class": "Welterweight",
+    "Age": 30,
+    "Height": 72,
+    "UFC Fights": 9,
+    "MMA Fights": 10
+  },
+  {
+    "Name": "Mike Davis",
+    "Country": "United States",
+    "Weight Class": "Lightweight",
+    "Age": 32,
+    "Height": 72,
+    "UFC Fights": 6,
+    "MMA Fights": 15
+  },
+  {
+    "Name": "Charlie Campbell",
+    "Country": "United States",
+    "Weight Class": "Lightweight",
+    "Age": 29,
+    "Height": 72,
+    "UFC Fights": 2,
+    "MMA Fights": 12
+  },
+  {
+    "Name": "Steve Garcia",
+    "Country": "United States",
+    "Weight Class": "Featherweight",
+    "Age": 32,
+    "Height": 72,
+    "UFC Fights": 8,
+    "MMA Fights": 26
+  },
+  {
+    "Name": "Jared Cannonier",
+    "Country": "United States",
+    "Weight Class": "Middleweight",
+    "Age": 41,
+    "Height": 71,
+    "UFC Fights": 19,
+    "MMA Fights": 13
+  },
+  {
+    "Name": "Dustin Stoltzfus",
+    "Country": "United States",
+    "Weight Class": "Middleweight",
+    "Age": 33,
+    "Height": 71,
+    "UFC Fights": 8,
+    "MMA Fights": 11
+  },
+  {
+    "Name": "Court McGee",
+    "Country": "United States",
+    "Weight Class": "Welterweight",
+    "Age": 40,
+    "Height": 71,
+    "UFC Fights": 23,
+    "MMA Fights": 9
+  },
+  {
+    "Name": "Colby Covington",
+    "Country": "United States",
+    "Weight Class": "Welterweight",
+    "Age": 37,
+    "Height": 71,
+    "UFC Fights": 17,
+    "MMA Fights": 8
+  },
+  {
+    "Name": "Alex Morono",
+    "Country": "United States",
+    "Weight Class": "Welterweight",
+    "Age": 34,
+    "Height": 71,
+    "UFC Fights": 23,
+    "MMA Fights": 7
+  },
+  {
+    "Name": "Geoff Neal",
+    "Country": "United States",
+    "Weight Class": "Welterweight",
+    "Age": 34,
+    "Height": 71,
+    "UFC Fights": 12,
+    "MMA Fights": 32
+  },
+  {
+    "Name": "Preston Parsons",
+    "Country": "United States",
+    "Weight Class": "Welterweight",
+    "Age": 29,
+    "Height": 71,
+    "UFC Fights": 6,
+    "MMA Fights": 21
+  },
+  {
+    "Name": "Bassil Hafez",
+    "Country": "United States",
+    "Weight Class": "Welterweight",
+    "Age": 33,
+    "Height": 71,
+    "UFC Fights": 3,
+    "MMA Fights": 24
+  },
+  {
+    "Name": "Austin Vanderford",
+    "Country": "United States",
+    "Weight Class": "Welterweight",
+    "Age": 35,
+    "Height": 71,
+    "UFC Fights": 1,
+    "MMA Fights": 25
+  },
+  {
+    "Name": "Kurt Holobaugh",
+    "Country": "United States",
+    "Weight Class": "Lightweight",
+    "Age": 38,
+    "Height": 71,
+    "UFC Fights": 8,
+    "MMA Fights": 17
+  },
+  {
+    "Name": "Justin Gaethje",
+    "Country": "United States",
+    "Weight Class": "Lightweight",
+    "Age": 36,
+    "Height": 71,
+    "UFC Fights": 14,
+    "MMA Fights": 9
+  },
+  {
+    "Name": "Alex Reyes",
+    "Country": "United States",
+    "Weight Class": "Lightweight",
+    "Age": 38,
+    "Height": 71,
+    "UFC Fights": 3,
+    "MMA Fights": 19
+  },
+  {
+    "Name": "Jordan Leavitt",
+    "Country": "United States",
+    "Weight Class": "Lightweight",
+    "Age": 29,
+    "Height": 71,
+    "UFC Fights": 7,
+    "MMA Fights": 17
+  },
+  {
+    "Name": "Trey Ogden",
+    "Country": "United States",
+    "Weight Class": "Lightweight",
+    "Age": 35,
+    "Height": 71,
+    "UFC Fights": 6,
+    "MMA Fights": 18
+  },
+  {
+    "Name": "Dennis Buzukja",
+    "Country": "United States",
+    "Weight Class": "Lightweight",
+    "Age": 27,
+    "Height": 71,
+    "UFC Fights": 4,
+    "MMA Fights": 11
+  },
+  {
+    "Name": "Mitch Ramirez",
+    "Country": "United States",
+    "Weight Class": "Lightweight",
+    "Age": 32,
+    "Height": 71,
+    "UFC Fights": 1,
+    "MMA Fights": 21
+  },
+  {
+    "Name": "Max Holloway",
+    "Country": "United States",
+    "Weight Class": "Featherweight",
+    "Age": 33,
+    "Height": 71,
+    "UFC Fights": 30,
+    "MMA Fights": 11
+  },
+  {
+    "Name": "Andre Fili",
+    "Country": "United States",
+    "Weight Class": "Featherweight",
+    "Age": 34,
+    "Height": 71,
+    "UFC Fights": 24,
+    "MMA Fights": 9
+  },
+  {
+    "Name": "Calvin Kattar",
+    "Country": "United States",
+    "Weight Class": "Featherweight",
+    "Age": 37,
+    "Height": 71,
+    "UFC Fights": 13,
+    "MMA Fights": 17
+  },
+  {
+    "Name": "Danny Silva",
+    "Country": "United States",
+    "Weight Class": "Featherweight",
+    "Age": 28,
+    "Height": 71,
+    "UFC Fights": 2,
+    "MMA Fights": 25
+  },
+  {
+    "Name": "Steven Nguyen",
+    "Country": "United States",
+    "Weight Class": "Featherweight",
+    "Age": 31,
+    "Height": 71,
+    "UFC Fights": 1,
+    "MMA Fights": 19
+  },
+  {
+    "Name": "Jose Delgado",
+    "Country": "United States",
+    "Weight Class": "Featherweight",
+    "Age": 26,
+    "Height": 71,
+    "UFC Fights": 1,
+    "MMA Fights": 25
+  },
+  {
+    "Name": "Sean O'Malley",
+    "Country": "United States",
+    "Weight Class": "Bantamweight",
+    "Age": 30,
+    "Height": 71,
+    "UFC Fights": 13,
+    "MMA Fights": 14
+  },
+  {
+    "Name": "Cory Sandhagen",
+    "Country": "United States",
+    "Weight Class": "Bantamweight",
+    "Age": 32,
+    "Height": 71,
+    "UFC Fights": 14,
+    "MMA Fights": 10
+  },
+  {
+    "Name": "Chris Curtis",
+    "Country": "United States",
+    "Weight Class": "Middleweight",
+    "Age": 37,
+    "Height": 70,
+    "UFC Fights": 10,
+    "MMA Fights": 8
+  },
+  {
+    "Name": "Belal Muhammad",
+    "Country": "United States",
+    "Weight Class": "Welterweight",
+    "Age": 36,
+    "Height": 70,
+    "UFC Fights": 19,
+    "MMA Fights": 17
+  },
+  {
+    "Name": "Gabriel Green",
+    "Country": "United States",
+    "Weight Class": "Welterweight",
+    "Age": 31,
+    "Height": 70,
+    "UFC Fights": 5,
+    "MMA Fights": 16
+  },
+  {
+    "Name": "Ramiz Brahimaj",
+    "Country": "United States",
+    "Weight Class": "Welterweight",
+    "Age": 32,
+    "Height": 70,
+    "UFC Fights": 6,
+    "MMA Fights": 21
+  },
+  {
+    "Name": "Evan Elder",
+    "Country": "United States",
+    "Weight Class": "Welterweight",
+    "Age": 27,
+    "Height": 70,
+    "UFC Fights": 4,
+    "MMA Fights": 15
+  },
+  {
+    "Name": "Billy Goff",
+    "Country": "United States",
+    "Weight Class": "Welterweight",
+    "Age": 26,
+    "Height": 70,
+    "UFC Fights": 2,
+    "MMA Fights": 13
+  },
+  {
+    "Name": "Jacobe Smith",
+    "Country": "United States",
+    "Weight Class": "Welterweight",
+    "Age": 29,
+    "Height": 70,
+    "UFC Fights": 1,
+    "MMA Fights": 16
+  },
+  {
+    "Name": "King Green *",
+    "Country": "United States",
+    "Weight Class": "Lightweight",
+    "Age": 38,
+    "Height": 70,
+    "UFC Fights": 32,
+    "MMA Fights": 6
+  },
+  {
+    "Name": "Vinc Pichel",
+    "Country": "United States",
+    "Weight Class": "Lightweight",
+    "Age": 42,
+    "Height": 70,
+    "UFC Fights": 11,
+    "MMA Fights": 9
+  },
+  {
+    "Name": "Beneil Dariush",
+    "Country": "United States",
+    "Weight Class": "Lightweight",
+    "Age": 35,
+    "Height": 70,
+    "UFC Fights": 23,
+    "MMA Fights": 20
+  },
+  {
+    "Name": "Grant Dawson",
+    "Country": "United States",
+    "Weight Class": "Lightweight",
+    "Age": 31,
+    "Height": 70,
+    "UFC Fights": 13,
+    "MMA Fights": 24
+  },
+  {
+    "Name": "Austin Hubbard",
+    "Country": "United States",
+    "Weight Class": "Lightweight",
+    "Age": 33,
+    "Height": 70,
+    "UFC Fights": 11,
+    "MMA Fights": 24
+  },
+  {
+    "Name": "Terrance McKinney",
+    "Country": "United States",
+    "Weight Class": "Lightweight",
+    "Age": 30,
+    "Height": 70,
+    "UFC Fights": 10,
+    "MMA Fights": 30
+  },
+  {
+    "Name": "MarQuel Mederos",
+    "Country": "United States",
+    "Weight Class": "Lightweight",
+    "Age": 28,
+    "Height": 70,
+    "UFC Fights": 2,
+    "MMA Fights": 28
+  },
+  {
+    "Name": "Darren Elkins",
+    "Country": "United States",
+    "Weight Class": "Featherweight",
+    "Age": 40,
+    "Height": 70,
+    "UFC Fights": 29,
+    "MMA Fights": 15
+  },
+  {
+    "Name": "Alex Caceres",
+    "Country": "United States",
+    "Weight Class": "Featherweight",
+    "Age": 36,
+    "Height": 70,
+    "UFC Fights": 30,
+    "MMA Fights": 14
+  },
+  {
+    "Name": "Bryce Mitchell",
+    "Country": "United States",
+    "Weight Class": "Featherweight",
+    "Age": 30,
+    "Height": 70,
+    "UFC Fights": 10,
+    "MMA Fights": 42
+  },
+  {
+    "Name": "Billy Quarantillo",
+    "Country": "United States",
+    "Weight Class": "Featherweight",
+    "Age": 36,
+    "Height": 70,
+    "UFC Fights": 11,
+    "MMA Fights": 32
+  },
+  {
+    "Name": "Jamall Emmers",
+    "Country": "United States",
+    "Weight Class": "Featherweight",
+    "Age": 35,
+    "Height": 70,
+    "UFC Fights": 8,
+    "MMA Fights": 32
+  },
+  {
+    "Name": "Cody Gibson",
+    "Country": "United States",
+    "Weight Class": "Bantamweight",
+    "Age": 37,
+    "Height": 70,
+    "UFC Fights": 9,
+    "MMA Fights": 23
+  },
+  {
+    "Name": "Montel Jackson",
+    "Country": "United States",
+    "Weight Class": "Bantamweight",
+    "Age": 32,
+    "Height": 70,
+    "UFC Fights": 10,
+    "MMA Fights": 27
+  },
+  {
+    "Name": "Da'Mon Blackshear",
+    "Country": "United States",
+    "Weight Class": "Bantamweight",
+    "Age": 30,
+    "Height": 70,
+    "UFC Fights": 8,
+    "MMA Fights": 18
+  },
+  {
+    "Name": "Payton Talbott",
+    "Country": "United States",
+    "Weight Class": "Bantamweight",
+    "Age": 26,
+    "Height": 70,
+    "UFC Fights": 4,
+    "MMA Fights": 28
+  },
+  {
+    "Name": "AJ Cunningham",
+    "Country": "United States",
+    "Weight Class": "Bantamweight",
+    "Age": 30,
+    "Height": 70,
+    "UFC Fights": 2,
+    "MMA Fights": 23
+  },
+  {
+    "Name": "Chris Barnett",
+    "Country": "United States",
+    "Weight Class": "Heavyweight",
+    "Age": 38,
+    "Height": 69,
+    "UFC Fights": 5,
+    "MMA Fights": 21
+  },
+  {
+    "Name": "Kelvin Gastelum",
+    "Country": "United States",
+    "Weight Class": "Middleweight",
+    "Age": 33,
+    "Height": 69,
+    "UFC Fights": 23,
+    "MMA Fights": 12
+  },
+  {
+    "Name": "Sean Brady",
+    "Country": "United States",
+    "Weight Class": "Welterweight",
+    "Age": 32,
+    "Height": 69,
+    "UFC Fights": 9,
+    "MMA Fights": 16
+  },
+  {
+    "Name": "Jeremiah Wells",
+    "Country": "United States",
+    "Weight Class": "Welterweight",
+    "Age": 38,
+    "Height": 69,
+    "UFC Fights": 6,
+    "MMA Fights": 15
+  },
+  {
+    "Name": "Pete Rodriguez",
+    "Country": "United States",
+    "Weight Class": "Welterweight",
+    "Age": 28,
+    "Height": 69,
+    "UFC Fights": 3,
+    "MMA Fights": 17
+  },
+  {
+    "Name": "Jonny Parsons",
+    "Country": "United States",
+    "Weight Class": "Welterweight",
+    "Age": 33,
+    "Height": 69,
+    "UFC Fights": 1,
+    "MMA Fights": 20
+  },
+  {
+    "Name": "Darrius Flowers",
+    "Country": "United States",
+    "Weight Class": "Welterweight",
+    "Age": 30,
+    "Height": 69,
+    "UFC Fights": 3,
+    "MMA Fights": 10
+  },
+  {
+    "Name": "Charlie Radtke",
+    "Country": "United States",
+    "Weight Class": "Welterweight",
+    "Age": 34,
+    "Height": 69,
+    "UFC Fights": 4,
+    "MMA Fights": 20
+  },
+  {
+    "Name": "Dustin Poirier *",
+    "Country": "United States",
+    "Weight Class": "Lightweight",
+    "Age": 36,
+    "Height": 69,
+    "UFC Fights": 33,
+    "MMA Fights": 18
+  },
+  {
+    "Name": "Michael Johnson",
+    "Country": "United States",
+    "Weight Class": "Lightweight",
+    "Age": 38,
+    "Height": 69,
+    "UFC Fights": 30,
+    "MMA Fights": 19
+  },
+  {
+    "Name": "Jared Gordon",
+    "Country": "United States",
+    "Weight Class": "Lightweight",
+    "Age": 36,
+    "Height": 69,
+    "UFC Fights": 15,
+    "MMA Fights": 9
+  },
+  {
+    "Name": "Lando Vannata",
+    "Country": "United States",
+    "Weight Class": "Lightweight",
+    "Age": 33,
+    "Height": 69,
+    "UFC Fights": 13,
+    "MMA Fights": 24
+  },
+  {
+    "Name": "Matt Frevola",
+    "Country": "United States",
+    "Weight Class": "Lightweight",
+    "Age": 34,
+    "Height": 69,
+    "UFC Fights": 11,
+    "MMA Fights": 20
+  },
+  {
+    "Name": "Alexander Hernandez",
+    "Country": "United States",
+    "Weight Class": "Lightweight",
+    "Age": 32,
+    "Height": 69,
+    "UFC Fights": 15,
+    "MMA Fights": 11
+  },
+  {
+    "Name": "Trevor Peek",
+    "Country": "United States",
+    "Weight Class": "Lightweight",
+    "Age": 30,
+    "Height": 69,
+    "UFC Fights": 5,
+    "MMA Fights": 9
+  },
+  {
+    "Name": "Chris Padilla",
+    "Country": "United States",
+    "Weight Class": "Lightweight",
+    "Age": 29,
+    "Height": 69,
+    "UFC Fights": 3,
+    "MMA Fights": 29
+  },
+  {
+    "Name": "Kody Steele",
+    "Country": "United States",
+    "Weight Class": "Lightweight",
+    "Age": 29,
+    "Height": 69,
+    "UFC Fights": 1,
+    "MMA Fights": 24
+  },
+  {
+    "Name": "Nate Landwehr",
+    "Country": "United States",
+    "Weight Class": "Featherweight",
+    "Age": 36,
+    "Height": 69,
+    "UFC Fights": 9,
+    "MMA Fights": 20
+  },
+  {
+    "Name": "Francis Marshall",
+    "Country": "United States",
+    "Weight Class": "Featherweight",
+    "Age": 26,
+    "Height": 69,
+    "UFC Fights": 5,
+    "MMA Fights": 9
+  },
+  {
+    "Name": "Hyder Amil",
+    "Country": "United States",
+    "Weight Class": "Featherweight",
+    "Age": 34,
+    "Height": 69,
+    "UFC Fights": 3,
+    "MMA Fights": 17
+  },
+  {
+    "Name": "Timothy Cuamba",
+    "Country": "United States",
+    "Weight Class": "Featherweight",
+    "Age": 26,
+    "Height": 69,
+    "UFC Fights": 2,
+    "MMA Fights": 27
+  },
+  {
+    "Name": "Mario Bautista",
+    "Country": "United States",
+    "Weight Class": "Bantamweight",
+    "Age": 31,
+    "Height": 69,
+    "UFC Fights": 11,
+    "MMA Fights": 13
+  },
+  {
+    "Name": "Ricky Turcios",
+    "Country": "United States",
+    "Weight Class": "Bantamweight",
+    "Age": 31,
+    "Height": 69,
+    "UFC Fights": 5,
+    "MMA Fights": 13
+  },
+  {
+    "Name": "Cameron Smotherman",
+    "Country": "United States",
+    "Weight Class": "Bantamweight",
+    "Age": 27,
+    "Height": 69,
+    "UFC Fights": 1,
+    "MMA Fights": 16
+  },
+  {
+    "Name": "Elijah Smith",
+    "Country": "United States",
+    "Weight Class": "Bantamweight",
+    "Age": 22,
+    "Height": 69,
+    "UFC Fights": 1,
+    "MMA Fights": 10
+  },
+  {
+    "Name": "Charles Johnson",
+    "Country": "United States",
+    "Weight Class": "Flyweight",
+    "Age": 34,
+    "Height": 69,
+    "UFC Fights": 11,
+    "MMA Fights": 10
+  },
+  {
+    "Name": "Macy Chiasson",
+    "Country": "United States",
+    "Weight Class": "Bantamweight",
+    "Age": 33,
+    "Height": 69,
+    "UFC Fights": 11,
+    "MMA Fights": 12
+  },
+  {
+    "Name": "Katlyn Cerminara",
+    "Country": "United States",
+    "Weight Class": "Flyweight",
+    "Age": 36,
+    "Height": 69,
+    "UFC Fights": 17,
+    "MMA Fights": 8
+  },
+  {
+    "Name": "Carli Judice",
+    "Country": "United States",
+    "Weight Class": "Flyweight",
+    "Age": 26,
+    "Height": 69,
+    "UFC Fights": 2,
+    "MMA Fights": 8
+  },
+  {
+    "Name": "Joaquin Buckley",
+    "Country": "United States",
+    "Weight Class": "Welterweight",
+    "Age": 30,
+    "Height": 68,
+    "UFC Fights": 15,
+    "MMA Fights": 9
+  },
+  {
+    "Name": "Jim Miller",
+    "Country": "United States",
+    "Weight Class": "Lightweight",
+    "Age": 41,
+    "Height": 68,
+    "UFC Fights": 45,
+    "MMA Fights": 29
+  },
+  {
+    "Name": "Drew Dober",
+    "Country": "United States",
+    "Weight Class": "Lightweight",
+    "Age": 36,
+    "Height": 68,
+    "UFC Fights": 22,
+    "MMA Fights": 12
+  },
+  {
+    "Name": "Drakkar Klose",
+    "Country": "United States",
+    "Weight Class": "Lightweight",
+    "Age": 37,
+    "Height": 68,
+    "UFC Fights": 12,
+    "MMA Fights": 34
+  },
+  {
+    "Name": "Michael Chandler",
+    "Country": "United States",
+    "Weight Class": "Lightweight",
+    "Age": 38,
+    "Height": 68,
+    "UFC Fights": 6,
+    "MMA Fights": 37
+  },
+  {
+    "Name": "Victor Martinez",
+    "Country": "United States",
+    "Weight Class": "Lightweight",
+    "Age": 33,
+    "Height": 68,
+    "UFC Fights": 2,
+    "MMA Fights": 19
+  },
+  {
+    "Name": "Brian Ortega",
+    "Country": "United States",
+    "Weight Class": "Featherweight",
+    "Age": 34,
+    "Height": 68,
+    "UFC Fights": 13,
+    "MMA Fights": 28
+  },
+  {
+    "Name": "Pat Sabatini",
+    "Country": "United States",
+    "Weight Class": "Featherweight",
+    "Age": 34,
+    "Height": 68,
+    "UFC Fights": 8,
+    "MMA Fights": 15
+  },
+  {
+    "Name": "Connor Matthews",
+    "Country": "United States",
+    "Weight Class": "Featherweight",
+    "Age": 32,
+    "Height": 68,
+    "UFC Fights": 2,
+    "MMA Fights": 12
+  },
+  {
+    "Name": "Rob Font",
+    "Country": "United States",
+    "Weight Class": "Bantamweight",
+    "Age": 37,
+    "Height": 68,
+    "UFC Fights": 19,
+    "MMA Fights": 10
+  },
+  {
+    "Name": "Chris Gutiérrez",
+    "Country": "United States",
+    "Weight Class": "Bantamweight",
+    "Age": 33,
+    "Height": 68,
+    "UFC Fights": 13,
+    "MMA Fights": 9
+  },
+  {
+    "Name": "Kyler Phillips",
+    "Country": "United States",
+    "Weight Class": "Bantamweight",
+    "Age": 29,
+    "Height": 68,
+    "UFC Fights": 8,
+    "MMA Fights": 19
+  },
+  {
+    "Name": "Brady Hiestand",
+    "Country": "United States",
+    "Weight Class": "Bantamweight",
+    "Age": 25,
+    "Height": 68,
+    "UFC Fights": 4,
+    "MMA Fights": 13
+  },
+  {
+    "Name": "Marcus McGhee",
+    "Country": "United States",
+    "Weight Class": "Bantamweight",
+    "Age": 34,
+    "Height": 68,
+    "UFC Fights": 4,
+    "MMA Fights": 14
+  },
+  {
+    "Name": "Ramon Taveras",
+    "Country": "United States",
+    "Weight Class": "Bantamweight",
+    "Age": 31,
+    "Height": 68,
+    "UFC Fights": 2,
+    "MMA Fights": 10
+  },
+  {
+    "Name": "Angel Pacheco",
+    "Country": "United States",
+    "Weight Class": "Bantamweight",
+    "Age": 33,
+    "Height": 68,
+    "UFC Fights": 1,
+    "MMA Fights": 20
+  },
+  {
+    "Name": "Carlos Hernandez",
+    "Country": "United States",
+    "Weight Class": "Flyweight",
+    "Age": 31,
+    "Height": 68,
+    "UFC Fights": 6,
+    "MMA Fights": 29
+  },
+  {
+    "Name": "Chelsea Chandler",
+    "Country": "United States",
+    "Weight Class": "Bantamweight",
+    "Age": 31,
+    "Height": 68,
+    "UFC Fights": 4,
+    "MMA Fights": 21
+  },
+  {
+    "Name": "Hailey Cowan",
+    "Country": "United States",
+    "Weight Class": "Bantamweight",
+    "Age": 33,
+    "Height": 68,
+    "UFC Fights": 1,
+    "MMA Fights": 21
+  },
+  {
+    "Name": "Kayla Harrison",
+    "Country": "United States",
+    "Weight Class": "Bantamweight",
+    "Age": 34,
+    "Height": 68,
+    "UFC Fights": 2,
+    "MMA Fights": 19
+  },
+  {
+    "Name": "Cub Swanson *",
+    "Country": "United States",
+    "Weight Class": "Featherweight",
+    "Age": 41,
+    "Height": 67,
+    "UFC Fights": 33,
+    "MMA Fights": 13
+  },
+  {
+    "Name": "Aljamain Sterling",
+    "Country": "United States",
+    "Weight Class": "Featherweight",
+    "Age": 35,
+    "Height": 67,
+    "UFC Fights": 21,
+    "MMA Fights": 23
+  },
+  {
+    "Name": "Josh Emmett",
+    "Country": "United States",
+    "Weight Class": "Featherweight",
+    "Age": 40,
+    "Height": 67,
+    "UFC Fights": 14,
+    "MMA Fights": 11
+  },
+  {
+    "Name": "Dan Ige",
+    "Country": "United States",
+    "Weight Class": "Featherweight",
+    "Age": 33,
+    "Height": 67,
+    "UFC Fights": 18,
+    "MMA Fights": 23
+  },
+  {
+    "Name": "Miles Johns",
+    "Country": "United States",
+    "Weight Class": "Featherweight",
+    "Age": 30,
+    "Height": 67,
+    "UFC Fights": 10,
+    "MMA Fights": 15
+  },
+  {
+    "Name": "Christian Rodriguez",
+    "Country": "United States",
+    "Weight Class": "Featherweight",
+    "Age": 27,
+    "Height": 67,
+    "UFC Fights": 7,
+    "MMA Fights": 13
+  },
+  {
+    "Name": "Chepe Mariscal",
+    "Country": "United States",
+    "Weight Class": "Featherweight",
+    "Age": 32,
+    "Height": 67,
+    "UFC Fights": 5,
+    "MMA Fights": 8
+  },
+  {
+    "Name": "Isaac Dulgarian",
+    "Country": "United States",
+    "Weight Class": "Featherweight",
+    "Age": 28,
+    "Height": 67,
+    "UFC Fights": 3,
+    "MMA Fights": 21
+  },
+  {
+    "Name": "Tim Elliott",
+    "Country": "United States",
+    "Weight Class": "Bantamweight",
+    "Age": 38,
+    "Height": 67,
+    "UFC Fights": 20,
+    "MMA Fights": 12
+  },
+  {
+    "Name": "Cody Garbrandt",
+    "Country": "United States",
+    "Weight Class": "Bantamweight",
+    "Age": 33,
+    "Height": 67,
+    "UFC Fights": 15,
+    "MMA Fights": 34
+  },
+  {
+    "Name": "Jonathan Martinez",
+    "Country": "United States",
+    "Weight Class": "Bantamweight",
+    "Age": 30,
+    "Height": 67,
+    "UFC Fights": 15,
+    "MMA Fights": 23
+  },
+  {
+    "Name": "Vince Morales",
+    "Country": "United States",
+    "Weight Class": "Bantamweight",
+    "Age": 34,
+    "Height": 67,
+    "UFC Fights": 10,
+    "MMA Fights": 18
+  },
+  {
+    "Name": "John Castañeda",
+    "Country": "United States",
+    "Weight Class": "Bantamweight",
+    "Age": 33,
+    "Height": 67,
+    "UFC Fights": 7,
+    "MMA Fights": 14
+  },
+  {
+    "Name": "Adrian Yañez",
+    "Country": "United States",
+    "Weight Class": "Bantamweight",
+    "Age": 31,
+    "Height": 67,
+    "UFC Fights": 9,
+    "MMA Fights": 24
+  },
+  {
+    "Name": "Cody Durden",
+    "Country": "United States",
+    "Weight Class": "Bantamweight",
+    "Age": 34,
+    "Height": 67,
+    "UFC Fights": 12,
+    "MMA Fights": 19
+  },
+  {
+    "Name": "Victor Henry",
+    "Country": "United States",
+    "Weight Class": "Bantamweight",
+    "Age": 37,
+    "Height": 67,
+    "UFC Fights": 6,
+    "MMA Fights": 9
+  },
+  {
+    "Name": "Daniel Argueta",
+    "Country": "United States",
+    "Weight Class": "Bantamweight",
+    "Age": 31,
+    "Height": 67,
+    "UFC Fights": 6,
+    "MMA Fights": 8
+  },
+  {
+    "Name": "Garrett Armfield",
+    "Country": "United States",
+    "Weight Class": "Bantamweight",
+    "Age": 28,
+    "Height": 67,
+    "UFC Fights": 5,
+    "MMA Fights": 15
+  },
+  {
+    "Name": "Steven Koslow",
+    "Country": "United States",
+    "Weight Class": "Bantamweight",
+    "Age": 28,
+    "Height": 67,
+    "UFC Fights": 1,
+    "MMA Fights": 15
+  },
+  {
+    "Name": "Brandon Royval",
+    "Country": "United States",
+    "Weight Class": "Flyweight",
+    "Age": 32,
+    "Height": 67,
+    "UFC Fights": 10,
+    "MMA Fights": 24
+  },
+  {
+    "Name": "Jimmy Flick",
+    "Country": "United States",
+    "Weight Class": "Flyweight",
+    "Age": 34,
+    "Height": 67,
+    "UFC Fights": 5,
+    "MMA Fights": 11
+  },
+  {
+    "Name": "Julianna Peña",
+    "Country": "United States",
+    "Weight Class": "Bantamweight",
+    "Age": 35,
+    "Height": 67,
+    "UFC Fights": 11,
+    "MMA Fights": 8
+  },
+  {
+    "Name": "Raquel Pennington",
+    "Country": "United States",
+    "Weight Class": "Bantamweight",
+    "Age": 36,
+    "Height": 67,
+    "UFC Fights": 21,
+    "MMA Fights": 20
+  },
+  {
+    "Name": "Maycee Barber",
+    "Country": "United States",
+    "Weight Class": "Flyweight",
+    "Age": 26,
+    "Height": 67,
+    "UFC Fights": 11,
+    "MMA Fights": 18
+  },
+  {
+    "Name": "Juliana Miller",
+    "Country": "United States",
+    "Weight Class": "Flyweight",
+    "Age": 28,
+    "Height": 67,
+    "UFC Fights": 3,
+    "MMA Fights": 21
+  },
+  {
+    "Name": "Austin Bashi",
+    "Country": "United States",
+    "Weight Class": "Featherweight",
+    "Age": 23,
+    "Height": 66,
+    "UFC Fights": 1,
+    "MMA Fights": 13
+  },
+  {
+    "Name": "Ricky Simón",
+    "Country": "United States",
+    "Weight Class": "Bantamweight",
+    "Age": 32,
+    "Height": 66,
+    "UFC Fights": 14,
+    "MMA Fights": 20
+  },
+  {
+    "Name": "C.J. Vergara",
+    "Country": "United States",
+    "Weight Class": "Flyweight",
+    "Age": 33,
+    "Height": 66,
+    "UFC Fights": 7,
+    "MMA Fights": 11
+  },
+  {
+    "Name": "Clayton Carpenter",
+    "Country": "United States",
+    "Weight Class": "Flyweight",
+    "Age": 28,
+    "Height": 66,
+    "UFC Fights": 3,
+    "MMA Fights": 32
+  },
+  {
+    "Name": "Miesha Tate *",
+    "Country": "United States",
+    "Weight Class": "Bantamweight",
+    "Age": 38,
+    "Height": 66,
+    "UFC Fights": 21,
+    "MMA Fights": 25
+  },
+  {
+    "Name": "Fatima Kline",
+    "Country": "United States",
+    "Weight Class": "Strawweight",
+    "Age": 24,
+    "Height": 66,
+    "UFC Fights": 2,
+    "MMA Fights": 20
+  },
+  {
+    "Name": "Mitch Raposo",
+    "Country": "United States",
+    "Weight Class": "Flyweight",
+    "Age": 26,
+    "Height": 65,
+    "UFC Fights": 1,
+    "MMA Fights": 29
+  },
+  {
+    "Name": "Rose Namajunas",
+    "Country": "United States",
+    "Weight Class": "Flyweight",
+    "Age": 32,
+    "Height": 65,
+    "UFC Fights": 17,
+    "MMA Fights": 24
+  },
+  {
+    "Name": "JJ Aldrich",
+    "Country": "United States",
+    "Weight Class": "Flyweight",
+    "Age": 32,
+    "Height": 65,
+    "UFC Fights": 16,
+    "MMA Fights": 10
+  },
+  {
+    "Name": "Tracy Cortez",
+    "Country": "United States",
+    "Weight Class": "Flyweight",
+    "Age": 31,
+    "Height": 65,
+    "UFC Fights": 6,
+    "MMA Fights": 12
+  },
+  {
+    "Name": "Tatiana Suarez",
+    "Country": "United States",
+    "Weight Class": "Strawweight",
+    "Age": 34,
+    "Height": 65,
+    "UFC Fights": 8,
+    "MMA Fights": 12
+  },
+  {
+    "Name": "Sam Hughes",
+    "Country": "United States",
+    "Weight Class": "Strawweight",
+    "Age": 32,
+    "Height": 65,
+    "UFC Fights": 9,
+    "MMA Fights": 13
+  },
+  {
+    "Name": "Henry Cejudo",
+    "Country": "United States",
+    "Weight Class": "Bantamweight",
+    "Age": 38,
+    "Height": 64,
+    "UFC Fights": 15,
+    "MMA Fights": 23
+  },
+  {
+    "Name": "Cortavious Romious",
+    "Country": "United States",
+    "Weight Class": "Bantamweight",
+    "Age": 31,
+    "Height": 64,
+    "UFC Fights": 1,
+    "MMA Fights": 10
+  },
+  {
+    "Name": "Alex Perez",
+    "Country": "United States",
+    "Weight Class": "Flyweight",
+    "Age": 32,
+    "Height": 64,
+    "UFC Fights": 12,
+    "MMA Fights": 20
+  },
+  {
+    "Name": "Erin Blanchfield",
+    "Country": "United States",
+    "Weight Class": "Flyweight",
+    "Age": 25,
+    "Height": 64,
+    "UFC Fights": 8,
+    "MMA Fights": 16
+  },
+  {
+    "Name": "Miranda Maverick",
+    "Country": "United States",
+    "Weight Class": "Flyweight",
+    "Age": 27,
+    "Height": 63,
+    "UFC Fights": 11,
+    "MMA Fights": 22
+  },
+  {
+    "Name": "Angela Hill",
+    "Country": "United States",
+    "Weight Class": "Strawweight",
+    "Age": 40,
+    "Height": 63,
+    "UFC Fights": 27,
+    "MMA Fights": 14
+  },
+  {
+    "Name": "Mackenzie Dern",
+    "Country": "United States",
+    "Weight Class": "Strawweight",
+    "Age": 32,
+    "Height": 63,
+    "UFC Fights": 15,
+    "MMA Fights": 39
+  },
+  {
+    "Name": "Cheyanne Vlismas",
+    "Country": "United States",
+    "Weight Class": "Strawweight",
+    "Age": 29,
+    "Height": 63,
+    "UFC Fights": 4,
+    "MMA Fights": 23
+  },
+  {
+    "Name": "Elise Reed",
+    "Country": "United States",
+    "Weight Class": "Strawweight",
+    "Age": 32,
+    "Height": 63,
+    "UFC Fights": 8,
+    "MMA Fights": 18
+  },
+  {
+    "Name": "Vanessa Demopoulos",
+    "Country": "United States",
+    "Weight Class": "Strawweight",
+    "Age": 36,
+    "Height": 62,
+    "UFC Fights": 8,
+    "MMA Fights": 17
+  },
+  {
+    "Name": "Tecia Pennington",
+    "Country": "United States",
+    "Weight Class": "Strawweight",
+    "Age": 35,
+    "Height": 61,
+    "UFC Fights": 17,
+    "MMA Fights": 15
+  },
+  {
+    "Name": "Marnic Mann",
+    "Country": "United States",
+    "Weight Class": "Strawweight",
+    "Age": 32,
+    "Height": 60,
+    "UFC Fights": 2,
+    "MMA Fights": 17
+  },
+  {
+    "Name": "Nursulton Ruziboev",
+    "Country": "Uzbekistan",
+    "Weight Class": "Middleweight",
+    "Age": 31,
+    "Height": 77,
+    "UFC Fights": 4,
+    "MMA Fights": 9
+  },
+  {
+    "Name": "Bogdan Guskov",
+    "Country": "Uzbekistan",
+    "Weight Class": "Light Heavyweight",
+    "Age": 32,
+    "Height": 75,
+    "UFC Fights": 4,
+    "MMA Fights": 21
+  },
+  {
+    "Name": "Ramazan Temirov",
+    "Country": "Uzbekistan",
+    "Weight Class": "Flyweight",
+    "Age": 28,
+    "Height": 65,
+    "UFC Fights": 2,
+    "MMA Fights": 16
+  },
+  {
+    "Name": "Erik Silva",
+    "Country": "Venezuela",
+    "Weight Class": "Featherweight",
+    "Age": 38,
+    "Height": 69,
+    "UFC Fights": 2,
+    "MMA Fights": 21
+  },
+  {
+    "Name": "Veronica Hardy",
+    "Country": "Venezuela",
+    "Weight Class": "Flyweight",
+    "Age": 29,
+    "Height": 64,
+    "UFC Fights": 9,
+    "MMA Fights": 12
+  },
+  {
+    "Name": "Yuneisy Duben",
+    "Country": "Venezuela",
+    "Weight Class": "Flyweight",
+    "Age": 28,
+    "Height": 64,
+    "UFC Fights": 1,
+    "MMA Fights": 14
+  },
+  {
+    "Name": "Piera Rodriguez",
+    "Country": "Venezuela",
+    "Weight Class": "Strawweight",
+    "Age": 32,
+    "Height": 63,
+    "UFC Fights": 5,
+    "MMA Fights": 7
+  },
+  {
+    "Name": "Quang Le",
+    "Country": "Vietnam",
+    "Weight Class": "Bantamweight",
+    "Age": 33,
+    "Height": 66,
+    "UFC Fights": 2,
+    "MMA Fights": 14
+  },
+  {
+    "Name": "Oban Elliott",
+    "Country": "Wales",
+    "Weight Class": "Welterweight",
+    "Age": 27,
+    "Height": 72,
+    "UFC Fights": 3,
+    "MMA Fights": 9
+  },
+  {
+    "Name": "Themba Gorimbo",
+    "Country": "Zimbabwe",
+    "Weight Class": "Welterweight",
+    "Age": 34,
+    "Height": 73,
+    "UFC Fights": 6,
+    "MMA Fights": 14
+  }
+]
