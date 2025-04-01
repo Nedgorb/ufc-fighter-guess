@@ -18,6 +18,7 @@ function App() {
   const [stats, setStats] = useState(null);
   const [showStats, setShowStats] =useState(false);
   const [showHowToPlay, setShowHowToPlay] = useState(false);
+  const [showSuggestions, setShowSuggestions] = useState(false);
 
 // FOR DEV TESTING ONLY - SET TO NULL OR A DATE STRING 'xx/xx/xxxx'
 const devDateOverride = null;
@@ -266,28 +267,41 @@ const devDateOverride = null;
         </div>
 
         <div className="flex items-center mb-4">
-          <input
-            type="text"
-            value={input}
-            onChange={(e) => setInput(e.target.value)}
-            onKeyDown={handleKeyPress}
-            list="fighter-names"
-            placeholder="Enter fighter name"
-            className="border p-2 rounded mr-2 text-black"
-            disabled={gameOver}
-          />
-          <datalist id="fighter-names">
-            {fighters
-              .filter(
-                (fighter) =>
-                  fighter.Name &&
-                  fighter.Name.toLowerCase().includes(input.toLowerCase())
-              )
-              .slice(0, 5)
-              .map((fighter, index) => (
-                <option key={index} value={fighter.Name} />
-              ))}
-          </datalist>
+        <div className="relative w-full mr-2">
+  <input
+    type="text"
+    value={input}
+    onChange={(e) => setInput(e.target.value)}
+    onKeyDown={handleKeyPress}
+    onFocus={() => setShowSuggestions(true)}
+    onBlur={() => setTimeout(() => setShowSuggestions(false), 100)}
+    placeholder="Enter fighter name"
+    className="w-full border p-2 rounded text-black"
+    disabled={gameOver}
+  />
+  {showSuggestions && input && (
+    <div className="absolute left-0 right-0 top-full bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded mt-1 z-50 max-h-40 overflow-y-auto shadow-md">
+      {fighters
+        .filter((fighter) =>
+          fighter.Name.toLowerCase().includes(input.toLowerCase())
+        )
+        .slice(0, 5)
+        .map((fighter, index) => (
+          <div
+            key={index}
+            onMouseDown={() => {
+              setInput(fighter.Name);
+              setShowSuggestions(false);
+            }}
+            className="px-3 py-1 hover:bg-gray-200 dark:hover:bg-gray-700 cursor-pointer"
+          >
+            {fighter.Name}
+          </div>
+        ))}
+    </div>
+  )}
+</div>
+
           <button
             onClick={handleGuess}
             className="bg-blue-600 text-white px-4 py-2 rounded"
@@ -297,42 +311,47 @@ const devDateOverride = null;
           </button>
         </div>
 
-        <div className="grid grid-cols-7 gap-2 mb-2">
-          {dataKeys.map((header) => (
-            <div key={header} className="font-semibold text-center">
-              {header}
-            </div>
-          ))}
+        <div className="overflow-x-auto w-full">
+  <div className="min-w-[700px]">
+    <div className="grid grid-cols-7 gap-2 mb-2">
+      {dataKeys.map((header) => (
+        <div key={header} className="font-semibold text-center">
+          {header}
         </div>
+      ))}
+    </div>
 
-        {guessRows.map((guess, rowIndex) => (
-          <div key={rowIndex} className="grid grid-cols-7 gap-2 mb-2">
-            {guess ? (
-              dataKeys.map((key, index) => (
-                <div
-                  key={index}
-                  className={`p-2 rounded text-center text-white font-medium ${getCellColor(
-                    key,
-                    guess[key]
-                  )}`}
-                >
-                  {guess[key]}
-                </div>
-              ))
-            ) : (
-              Array(7)
-                .fill(null)
-                .map((_, index) => (
-                  <div
-                    key={index}
-                    className="p-2 rounded text-center bg-gray-800 text-gray-400"
-                  >
-                    —
-                  </div>
-                ))
-            )}
-          </div>
-        ))}
+    {guessRows.map((guess, rowIndex) => (
+      <div key={rowIndex} className="grid grid-cols-7 gap-2 mb-2">
+        {guess ? (
+          dataKeys.map((key, index) => (
+            <div
+              key={index}
+              className={`p-2 rounded text-center text-white font-medium ${getCellColor(
+                key,
+                guess[key]
+              )}`}
+            >
+              {guess[key]}
+            </div>
+          ))
+        ) : (
+          Array(7)
+            .fill(null)
+            .map((_, index) => (
+              <div
+                key={index}
+                className="p-2 rounded text-center bg-gray-800 text-gray-400"
+              >
+                —
+              </div>
+            ))
+        )}
+      </div>
+    ))}
+  </div>
+</div>
+
 
         {showPopup && (
           <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
