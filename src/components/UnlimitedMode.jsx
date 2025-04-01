@@ -14,6 +14,7 @@ function App() {
   const [hasWon, setHasWon] = useState(false);
   const [showConfetti, setShowConfetti] = useState(false);
   const [windowSize, setWindowSize] = useState({ width: window.innerWidth, height: window.innerHeight });
+  const [showHowToPlay, setShowHowToPlay] =useState(false);
 
   const normalizeFighter = (fighter) => ({
     Name: fighter.Name,
@@ -356,6 +357,69 @@ function App() {
           </div>
         )}
       </div>
+
+      <div className="flex justify-center mt-10">
+            <button
+                onClick={() => setShowHowToPlay(true)}
+                className="text-sm bg-gray-300 dark:bg-gray-700 text-black dark:text-white px-3 py-1 rounded hover:bg-gray-400 dark:hover:bg-gray-600 transition"
+                >
+                    How to Play
+                </button>
+        </div>
+
+        {showHowToPlay && (
+  <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+    <div className="bg-white dark:bg-gray-800 p-6 rounded shadow-md text-left w-[90%] max-w-md relative">
+      <button
+        onClick={() => setShowHowToPlay(false)}
+        className="absolute top-2 right-2 text-gray-500 hover:text-gray-800 dark:hover:text-white"
+      >
+        ✖
+      </button>
+      <h2 className="text-xl font-bold mb-2">How to Play</h2>
+      <p className="mb-4">Guess the UFC fighter in 6 tries. Each guess will give you clues on how close you are in categories like country, weight class, age, height, and fight stats.</p>
+
+      <div className="space-y-3">
+        {/* Gray - Not Close */}
+        <div className="flex items-center space-x-3">
+          <div className="w-40 h-10 bg-gray-600 text-white rounded flex items-center justify-center font-medium">—</div>
+          <span className="text-sm text-black dark:text-white">Not close</span>
+        </div>
+
+        {/* Yellow - Country */}
+        <div className="flex items-center space-x-3">
+          <div className="w-40 h-10 bg-yellow-500 text-white rounded flex items-center justify-center font-medium">Country</div>
+          <span className="text-sm text-black dark:text-white">Correct Continent, Wrong Country</span>
+        </div>
+
+        {/* Yellow - Weight Class */}
+        <div className="flex items-center space-x-3">
+          <div className="w-40 h-10 bg-yellow-500 text-white rounded flex items-center justify-center font-medium">Weight Class</div>
+          <span className="text-sm text-black dark:text-white">Within One Weight Class</span>
+        </div>
+
+        {/* Yellow - Age / Height */}
+        <div className="flex items-center space-x-3">
+          <div className="w-40 h-10 bg-yellow-500 text-white rounded flex items-center justify-center font-medium">Age / Height</div>
+          <span className="text-sm text-black dark:text-white">Within ±2 of Age or Height</span>
+        </div>
+
+        {/* Yellow - Fights */}
+        <div className="flex items-center space-x-3">
+          <div className="w-40 h-10 bg-yellow-500 text-white rounded flex items-center justify-center font-medium">Number of Fights</div>
+          <span className="text-sm text-black dark:text-white">Within ±5 of Number of Fights</span>
+        </div>
+
+        {/* Green - Correct */}
+        <div className="flex items-center space-x-3">
+          <div className="w-40 h-10 bg-green-600 text-white rounded flex items-center justify-center font-medium">✔</div>
+          <span className="text-sm text-black dark:text-white">Exactly Correct for Category</span>
+        </div>
+      </div>
+    </div>
+  </div>
+)}
+
     </div>
   );
 }
