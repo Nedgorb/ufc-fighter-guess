@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import fightersData from '../fighters.json';
 import ufcLogo from '../assets/ufc-logo.png';
 import Confetti from 'react-confetti';
+import { Sun, Moon } from 'lucide-react';
 
 function App() {
   const [fighters, setFighters] = useState([]);
@@ -19,6 +20,7 @@ function App() {
   const [showStats, setShowStats] =useState(false);
   const [showHowToPlay, setShowHowToPlay] = useState(false);
   const [showSuggestions, setShowSuggestions] = useState(false);
+  const [globalSuccessRate, setGlobalSuccessRate] =useState(null);
 
 // FOR DEV TESTING ONLY - SET TO NULL OR A DATE STRING 'xx/xx/xxxx'
 const devDateOverride = null;
@@ -49,6 +51,20 @@ const devDateOverride = null;
     const seed = today.split("/").reverse().join("");
     const index = parseInt(seed) % normalized.length;
     setCorrectFighter(normalized[index]);
+
+    const savedState = JSON.parse(localStorage.getItem("fotdGameState"));
+if (savedState && savedState.date === today) {
+  setGuesses(savedState.guesses);
+  setGameOver(savedState.gameOver);
+  setHasWon(savedState.hasWon);
+  setShowPopup(savedState.gameOver); // show result popup again
+}
+
+const globalStats = JSON.parse(localStorage.getItem("fotdGlobalStats")) || {};
+if (globalStats[today]) {
+  const { plays, wins } = globalStats[today];
+  setGlobalSuccessRate(plays > 0 ? Math.round((wins / plays) * 100) : null);
+}
 
     const handleResize = () => {
       setWindowSize({ width: window.innerWidth, height: window.innerHeight });
@@ -121,6 +137,32 @@ const devDateOverride = null;
       setShowPopup(true);
       setHasWon(false);
     }
+
+    
+
+    const today = new Date().toLocaleDateString("en-US", { timeZone: "America/Los_Angeles" });
+    localStorage.setItem("fotdGameState", JSON.stringify({
+      date: today,
+      guesses: [...newGuesses],
+      gameOver: guess.Name === correctFighter.Name || newGuesses.length >= 6,
+      hasWon: guess.Name === correctFighter.Name
+    }));
+    
+    const globalStats = JSON.parse(localStorage.getItem("fotdGlobalStats")) || {};
+if (!globalStats[today]) {
+  globalStats[today] = { plays: 0, wins: 0 };
+}
+globalStats[today].plays++;
+if (guess.Name === correctFighter.Name) {
+  globalStats[today].wins++;
+}
+localStorage.setItem("fotdGlobalStats", JSON.stringify(globalStats));
+
+const updated = globalStats[today];
+setGlobalSuccessRate(updated.plays > 0 ? Math.round((updated.wins / updated.plays) * 100) : null);
+
+
+
   };
 
   const handleKeyPress = (e) => {
@@ -258,10 +300,11 @@ const devDateOverride = null;
             <a href="/" className="text-sm bg-gray-300 dark:bg-gray-700 px-2 py-1 rounded">Fighter of the Day</a>
             <a href="/unlimited" className="text-sm bg-gray-300 dark:bg-gray-700 px-2 py-1 rounded">Unlimited Mode</a>
             <button
-              className="text-sm bg-gray-300 dark:bg-gray-700 px-2 py-1 rounded"
               onClick={() => setIsDarkMode(!isDarkMode)}
+              className="p-2 rounded-md border dark:border-gray-700 bg-gray-300 hover:bg-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 transition"
+              aria-label="Toggle dark mode"
             >
-              {isDarkMode ? 'Toggle Light Mode' : 'Toggle Dark Mode'}
+              {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}
             </button>
           </div>
         </div>
@@ -363,7 +406,7 @@ const devDateOverride = null;
                 recycle={false}
               />
             )}
-            <div className="bg-white dark:bg-gray-800 p-6 rounded shadow-md text-center relative w-80 animate-[bounce_0.5s_ease-in-out_2]">
+            <div className="bg-white dark:bg-gray-800 p-6 rounded shadow-md text-center relative w-80]">
               <button
                 onClick={() => setShowPopup(false)}
                 className="absolute top-2 right-2 text-gray-500 hover:text-gray-800 dark:hover:text-white"
@@ -381,6 +424,13 @@ const devDateOverride = null;
                   <p className="mb-4">The correct fighter was <strong>{correctFighter.Name}</strong>.</p>
                 </>
               )}
+
+{globalSuccessRate !== null && (
+    <p className="text-sm text-gray-600 dark:text-gray-300 mt-1">
+      {globalSuccessRate}% of users guessed correctly today
+    </p>
+  )}
+
               <button
                 onClick={() => window.location.href = '/unlimited'}
                 className="bg-blue-600 text-white px-4 py-2 rounded"

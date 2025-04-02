@@ -2,6 +2,36 @@ import React, { useEffect, useState } from 'react';
 import fightersData from '../fighters.json';
 import ufcLogo from '../assets/ufc-logo.png';
 import Confetti from 'react-confetti';
+import UnlimitedLogin from '../UnlimitedLogin';
+import { supabase } from '../supabaseClient'; // Make sure this is already in place
+import UnlimitedLeaderboard from '../UnlimitedLeaderboard'; // adjust path if needed
+import { Moon, Sun } from 'lucide-react';
+
+const updateUserStats = async (user, guessesTaken) => {
+  const newPlayed = user.games_played + 1;
+  const newWon = user.games_won + 1;
+  const newAvg = ((user.avg_score * user.games_played) + guessesTaken) / newPlayed;
+
+  const { data, error } = await supabase
+    .from('unlimited_scores')
+    .update({
+      games_played: newPlayed,
+      games_won: newWon,
+      avg_score: newAvg,
+    })
+    .eq('username', user.username)
+    .select()
+    .single();
+
+  if (error) {
+    console.error('Failed to update stats:', error);
+  } else {
+    console.log('Stats updated:', data);
+  }
+};
+
+
+
 
 function App() {
   const [fighters, setFighters] = useState([]);
@@ -16,6 +46,8 @@ function App() {
   const [windowSize, setWindowSize] = useState({ width: window.innerWidth, height: window.innerHeight });
   const [showHowToPlay, setShowHowToPlay] =useState(false);
   const [showSuggestions, setShowSuggestions] =useState(false);
+  const [user, setUser] = useState(null);
+
 
   const normalizeFighter = (fighter) => ({
     Name: fighter.Name,
@@ -65,12 +97,16 @@ function App() {
     setInput('');
 
     if (guess.Name === correctFighter.Name) {
-      setGameOver(true);
-      setShowPopup(true);
-      setHasWon(true);
-      setShowConfetti(true);
-      setTimeout(() => setShowConfetti(false), 6000);
-    } else if (newGuesses.length >= 6) {
+        setGameOver(true);
+        setShowPopup(true);
+        setHasWon(true);
+        setShowConfetti(true);
+        setTimeout(() => setShowConfetti(false), 6000);
+      
+        // Update stats in Supabase
+        updateUserStats(user, newGuesses.length);
+      }
+       else if (newGuesses.length >= 6) {
       setGameOver(true);
       setShowPopup(true);
       setHasWon(false);
@@ -235,8 +271,14 @@ function App() {
 
   const dataKeys = ['Name', 'Country', 'Weight Class', 'Age', 'Height', 'UFC Fights', 'MMA Fights'];
 
+
+  if (!user) {
+    return <UnlimitedLogin onLogin={setUser} />;
+  }
+  
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900 text-black dark:text-white">
+  
           <div className="max-w-6xl mx-auto py-6 px-4">
             <div className="flex items-center justify-between mb-4">
               <div className="flex items-center space-x-2">
@@ -247,11 +289,13 @@ function App() {
                 <a href="/" className="text-sm bg-gray-300 dark:bg-gray-700 px-2 py-1 rounded">Fighter of the Day</a>
                 <a href="/unlimited" className="text-sm bg-gray-300 dark:bg-gray-700 px-2 py-1 rounded">Unlimited Mode</a>
                 <button
-                  className="text-sm bg-gray-300 dark:bg-gray-700 px-2 py-1 rounded"
-                  onClick={() => setIsDarkMode(!isDarkMode)}
-                >
-                  {isDarkMode ? 'Toggle Light Mode' : 'Toggle Dark Mode'}
-                </button>
+  onClick={() => setIsDarkMode(!isDarkMode)}
+  className="p-2 rounded-md border dark:border-gray-700 bg-gray-300 hover:bg-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 transition"
+  aria-label="Toggle dark mode"
+>
+  {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}
+</button>
+
               </div>
             </div>
         <div className="flex items-center mb-4">
@@ -373,6 +417,9 @@ function App() {
               >
                 Try Another Fighter
               </button>
+
+              <UnlimitedLeaderboard />
+
             </div>
           </div>
         )}
@@ -389,7 +436,7 @@ function App() {
 
         {showHowToPlay && (
   <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-    <div className="bg-white dark:bg-gray-800 p-6 rounded shadow-md text-left w-[90%] max-w-md relative">
+    <div className="bg-white dark:bg-gray-800 p-3 rounded shadow-md text-left w-[90%] max-w-lg relative">
       <button
         onClick={() => setShowHowToPlay(false)}
         className="absolute top-2 right-2 text-gray-500 hover:text-gray-800 dark:hover:text-white"
