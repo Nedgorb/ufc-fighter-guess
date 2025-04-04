@@ -5,7 +5,7 @@ import Confetti from 'react-confetti';
 import UnlimitedLogin from '../UnlimitedLogin';
 import { supabase } from '../supabaseClient'; // Make sure this is already in place
 import UnlimitedLeaderboard from '../UnlimitedLeaderboard'; // adjust path if needed
-import { Moon, Sun } from 'lucide-react';
+import { Moon, Sun, Smartphone, Monitor } from 'lucide-react';
 
 const updateUserStats = async (user, guessesTaken) => {
   const newPlayed = user.games_played + 1;
@@ -47,6 +47,7 @@ function App() {
   const [showHowToPlay, setShowHowToPlay] =useState(false);
   const [showSuggestions, setShowSuggestions] =useState(false);
   const [user, setUser] = useState(null);
+  const [isMobileView, setIsMobileView] =useState(window.innerWidth <= 768);
 
 
   const normalizeFighter = (fighter) => ({
@@ -65,6 +66,8 @@ function App() {
     setCorrectFighter(
       normalized[Math.floor(Math.random() * normalized.length)]
     );
+
+setIsMobileView(window.innerWidth <= 768);
 
     const handleResize = () => {
       setWindowSize({ width: window.innerWidth, height: window.innerHeight });
@@ -280,24 +283,64 @@ function App() {
     <div className="min-h-screen bg-white dark:bg-gray-900 text-black dark:text-white">
   
           <div className="max-w-6xl mx-auto py-6 px-4">
-            <div className="flex items-center justify-between mb-4">
-              <div className="flex items-center space-x-2">
-                <img src={ufcLogo} alt="UFC Logo" className="h-8" />
-                <h1 className="text-2xl font-bold">Fighter Guess - Unlimited</h1>
-              </div>
-              <div className="flex space-x-2">
-                <a href="/" className="text-sm bg-gray-300 dark:bg-gray-700 px-2 py-1 rounded">Fighter of the Day</a>
-                <a href="/unlimited" className="text-sm bg-gray-300 dark:bg-gray-700 px-2 py-1 rounded">Unlimited Mode</a>
-                <button
-  onClick={() => setIsDarkMode(!isDarkMode)}
-  className="p-2 rounded-md border dark:border-gray-700 bg-gray-300 hover:bg-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 transition"
-  aria-label="Toggle dark mode"
->
-  {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}
-</button>
+{/* Header */}
+{isMobileView ? (
+  // MOBILE HEADER
+  <div className="mb-4">
+    <div className="flex flex-col items-center space-y-2 mb-4 text-center">
+      <img src={ufcLogo} alt="UFC Logo" className="h-8" />
+      <h1 className="text-2xl font-bold">
+        Fighter Guess{window.location.pathname.includes("unlimited") ? " - Unlimited" : ""}
+      </h1>
+    </div>
+    <div className="flex flex-wrap justify-center gap-2">
+      <a href="/" className="text-sm bg-gray-300 dark:bg-gray-700 px-2 py-1 rounded">FOTD</a>
+      <a href="/unlimited" className="text-sm bg-gray-300 dark:bg-gray-700 px-2 py-1 rounded">Unlimited</a>
+      <button
+        onClick={() => setIsMobileView(!isMobileView)}
+        className="p-2 rounded-md border dark:border-gray-700 bg-gray-300 hover:bg-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 transition"
+        aria-label="Toggle mobile/desktop view"
+      >
+        <Monitor size={20} />
+      </button>
+      <button
+        onClick={() => setIsDarkMode(!isDarkMode)}
+        className="p-2 rounded-md border dark:border-gray-700 bg-gray-300 hover:bg-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 transition"
+        aria-label="Toggle dark mode"
+      >
+        {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}
+      </button>
+    </div>
+  </div>
+) : (
+  // DESKTOP HEADER
+  <div className="flex items-center justify-between mb-4">
+    <div className="flex items-center space-x-2">
+      <img src={ufcLogo} alt="UFC Logo" className="h-8" />
+      <h1 className="text-2xl font-bold">Fighter Guess</h1>
+    </div>
+    <div className="flex space-x-2">
+      <a href="/" className="text-sm bg-gray-300 dark:bg-gray-700 px-2 py-1 rounded">Fighter of the Day</a>
+      <a href="/unlimited" className="text-sm bg-gray-300 dark:bg-gray-700 px-2 py-1 rounded">Unlimited Mode</a>
+      <button
+        onClick={() => setIsMobileView(!isMobileView)}
+        className="p-2 rounded-md border dark:border-gray-700 bg-gray-300 hover:bg-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 transition"
+        aria-label="Toggle mobile/desktop view"
+      >
+        <Smartphone size={20} />
+      </button>
+      <button
+        onClick={() => setIsDarkMode(!isDarkMode)}
+        className="p-2 rounded-md border dark:border-gray-700 bg-gray-300 hover:bg-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 transition"
+        aria-label="Toggle dark mode"
+      >
+        {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}
+      </button>
+    </div>
+  </div>
+)}
 
-              </div>
-            </div>
+
         <div className="flex items-center mb-4">
         <div className="relative w-full mr-2">
   <input
@@ -342,46 +385,84 @@ function App() {
             Guess
           </button>
         </div>
-        <div className="overflow-x-auto w-full">
-  <div className="min-w-[700px]">
-    <div className="grid grid-cols-7 gap-2 mb-2">
-      {dataKeys.map((header) => (
-        <div key={header} className="font-semibold text-center">
-          {header}
+        {isMobileView ? (
+  // MOBILE LAYOUT
+  <div className="w-full overflow-x-auto">
+    <div className="flex">
+    <div className="flex flex-col flex-shrink-0 mr-2 space-y-2">
+  {dataKeys.map((key) => (
+    <div
+      key={key}
+      className="w-28 h-12 flex items-center justify-center rounded bg-transparent text-black dark:text-white font-medium text-center"
+    >
+      {key}
+    </div>
+  ))}
+</div>
+
+
+
+
+      <div className="flex overflow-x-auto space-x-2">
+        {guessRows.map((guess, guessIndex) => (
+          <div key={guessIndex} className="flex flex-col space-y-2">
+            {dataKeys.map((key, i) => (
+              <div
+                key={i}
+                className={`w-28 h-12 flex items-center justify-center rounded text-white font-medium text-center ${guess ? getCellColor(key, guess[key]) : 'bg-gray-800 text-gray-400'}`}
+              >
+                {guess ? guess[key] : '—'}
+              </div>
+            ))}
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+) : (
+  // DESKTOP LAYOUT
+  <div className="overflow-x-auto w-full">
+    <div className="min-w-[700px]">
+      <div className="grid grid-cols-7 gap-2 mb-2">
+        {dataKeys.map((header) => (
+          <div key={header} className="font-semibold text-center">
+            {header}
+          </div>
+        ))}
+      </div>
+
+      {guessRows.map((guess, rowIndex) => (
+        <div key={rowIndex} className="grid grid-cols-7 gap-2 mb-2">
+          {guess ? (
+            dataKeys.map((key, index) => (
+              <div
+                key={index}
+                className={`p-2 rounded text-center text-white font-medium ${getCellColor(
+                  key,
+                  guess[key]
+                )}`}
+              >
+                {guess[key]}
+              </div>
+            ))
+          ) : (
+            Array(7)
+              .fill(null)
+              .map((_, index) => (
+                <div
+                  key={index}
+                  className="p-2 rounded text-center bg-gray-800 text-gray-400"
+                >
+                  —
+                </div>
+              ))
+          )}
         </div>
       ))}
     </div>
-
-    {guessRows.map((guess, rowIndex) => (
-      <div key={rowIndex} className="grid grid-cols-7 gap-2 mb-2">
-        {guess ? (
-          dataKeys.map((key, index) => (
-            <div
-              key={index}
-              className={`p-2 rounded text-center text-white font-medium ${getCellColor(
-                key,
-                guess[key]
-              )}`}
-            >
-              {guess[key]}
-            </div>
-          ))
-        ) : (
-          Array(7)
-            .fill(null)
-            .map((_, index) => (
-              <div
-                key={index}
-                className="p-2 rounded text-center bg-gray-800 text-gray-400"
-              >
-                —
-              </div>
-            ))
-        )}
-      </div>
-    ))}
   </div>
-</div>
+)}
+
 
         {showPopup && (
           <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">

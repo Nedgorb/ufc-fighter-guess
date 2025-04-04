@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import fightersData from '../fighters.json';
 import ufcLogo from '../assets/ufc-logo.png';
 import Confetti from 'react-confetti';
-import { Sun, Moon } from 'lucide-react';
+import { Sun, Moon, Smartphone, Monitor } from 'lucide-react';
 
 function App() {
   const [fighters, setFighters] = useState([]);
@@ -21,6 +21,7 @@ function App() {
   const [showHowToPlay, setShowHowToPlay] = useState(false);
   const [showSuggestions, setShowSuggestions] = useState(false);
   const [globalSuccessRate, setGlobalSuccessRate] =useState(null);
+  const [isMobileView, setIsMobileView] =useState(window.innerWidth <= 768);
 
 // FOR DEV TESTING ONLY - SET TO NULL OR A DATE STRING 'xx/xx/xxxx'
 const devDateOverride = null;
@@ -66,12 +67,18 @@ if (globalStats[today]) {
   setGlobalSuccessRate(plays > 0 ? Math.round((wins / plays) * 100) : null);
 }
 
+setIsMobileView(window.innerWidth <= 768);
+
+
     const handleResize = () => {
       setWindowSize({ width: window.innerWidth, height: window.innerHeight });
     };
 
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
+
+
+    
   }, []);
 
   useEffect(() => {
@@ -291,23 +298,64 @@ setGlobalSuccessRate(updated.plays > 0 ? Math.round((updated.wins / updated.play
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900 text-black dark:text-white">
       <div className="max-w-6xl mx-auto py-6 px-4">
-        <div className="flex items-center justify-between mb-4">
-          <div className="flex items-center space-x-2">
-            <img src={ufcLogo} alt="UFC Logo" className="h-8" />
-            <h1 className="text-2xl font-bold">Fighter Guess</h1>
-          </div>
-          <div className="flex space-x-2">
-            <a href="/" className="text-sm bg-gray-300 dark:bg-gray-700 px-2 py-1 rounded">Fighter of the Day</a>
-            <a href="/unlimited" className="text-sm bg-gray-300 dark:bg-gray-700 px-2 py-1 rounded">Unlimited Mode</a>
-            <button
-              onClick={() => setIsDarkMode(!isDarkMode)}
-              className="p-2 rounded-md border dark:border-gray-700 bg-gray-300 hover:bg-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 transition"
-              aria-label="Toggle dark mode"
-            >
-              {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}
-            </button>
-          </div>
-        </div>
+{/* Header */}
+{isMobileView ? (
+  // MOBILE HEADER
+  <div className="mb-4">
+<div className="flex flex-col items-center space-y-2 mb-4 text-center">
+      <img src={ufcLogo} alt="UFC Logo" className="h-8" />
+      <h1 className="text-3xl font-bold">
+        Fighter Guess{window.location.pathname.includes("unlimited") ? " - Unlimited" : ""}
+      </h1>
+    </div>
+    <div className="flex flex-wrap justify-center gap-2">
+      <a href="/" className="text-sm bg-gray-300 dark:bg-gray-700 px-2 py-1 rounded">FOTD</a>
+      <a href="/unlimited" className="text-sm bg-gray-300 dark:bg-gray-700 px-2 py-1 rounded">Unlimited</a>
+      <button
+        onClick={() => setIsMobileView(!isMobileView)}
+        className="p-2 rounded-md border dark:border-gray-700 bg-gray-300 hover:bg-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 transition"
+        aria-label="Toggle mobile/desktop view"
+      >
+        <Monitor size={20} />
+      </button>
+      <button
+        onClick={() => setIsDarkMode(!isDarkMode)}
+        className="p-2 rounded-md border dark:border-gray-700 bg-gray-300 hover:bg-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 transition"
+        aria-label="Toggle dark mode"
+      >
+        {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}
+      </button>
+    </div>
+  </div>
+) : (
+  // DESKTOP HEADER
+  <div className="flex items-center justify-between mb-4">
+    <div className="flex items-center space-x-2">
+      <img src={ufcLogo} alt="UFC Logo" className="h-8" />
+      <h1 className="text-4xl font-bold">Fighter Guess</h1>
+    </div>
+    <div className="flex space-x-2">
+      <a href="/" className="text-sm bg-gray-300 dark:bg-gray-700 px-2 py-1 rounded">Fighter of the Day</a>
+      <a href="/unlimited" className="text-sm bg-gray-300 dark:bg-gray-700 px-2 py-1 rounded">Unlimited Mode</a>
+      <button
+        onClick={() => setIsMobileView(!isMobileView)}
+        className="p-2 rounded-md border dark:border-gray-700 bg-gray-300 hover:bg-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 transition"
+        aria-label="Toggle mobile/desktop view"
+      >
+        <Smartphone size={20} />
+      </button>
+      <button
+        onClick={() => setIsDarkMode(!isDarkMode)}
+        className="p-2 rounded-md border dark:border-gray-700 bg-gray-300 hover:bg-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 transition"
+        aria-label="Toggle dark mode"
+      >
+        {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}
+      </button>
+    </div>
+  </div>
+)}
+
+
 
         <div className="flex items-center mb-4">
         <div className="relative w-full mr-2">
@@ -354,46 +402,84 @@ setGlobalSuccessRate(updated.plays > 0 ? Math.round((updated.wins / updated.play
           </button>
         </div>
 
-        <div className="overflow-x-auto w-full">
-  <div className="min-w-[700px]">
-    <div className="grid grid-cols-7 gap-2 mb-2">
-      {dataKeys.map((header) => (
-        <div key={header} className="font-semibold text-center">
-          {header}
+        {isMobileView ? (
+  // MOBILE LAYOUT
+  <div className="w-full overflow-x-auto">
+    <div className="flex">
+    <div className="flex flex-col flex-shrink-0 mr-2 space-y-2">
+  {dataKeys.map((key) => (
+    <div
+      key={key}
+      className="w-28 h-12 flex items-center justify-center rounded bg-transparent text-black dark:text-white font-medium text-center"
+    >
+      {key}
+    </div>
+  ))}
+</div>
+
+
+
+
+      <div className="flex overflow-x-auto space-x-2">
+        {guessRows.map((guess, guessIndex) => (
+          <div key={guessIndex} className="flex flex-col space-y-2">
+            {dataKeys.map((key, i) => (
+              <div
+                key={i}
+                className={`w-28 h-12 flex items-center justify-center rounded text-white font-medium text-center ${guess ? getCellColor(key, guess[key]) : 'bg-gray-800 text-gray-400'}`}
+              >
+                {guess ? guess[key] : '—'}
+              </div>
+            ))}
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+) : (
+  // DESKTOP LAYOUT
+  <div className="overflow-x-auto w-full">
+    <div className="min-w-[700px]">
+      <div className="grid grid-cols-7 gap-2 mb-2">
+        {dataKeys.map((header) => (
+          <div key={header} className="font-semibold text-center">
+            {header}
+          </div>
+        ))}
+      </div>
+
+      {guessRows.map((guess, rowIndex) => (
+        <div key={rowIndex} className="grid grid-cols-7 gap-2 mb-2">
+          {guess ? (
+            dataKeys.map((key, index) => (
+              <div
+                key={index}
+                className={`p-2 rounded text-center text-white font-medium ${getCellColor(
+                  key,
+                  guess[key]
+                )}`}
+              >
+                {guess[key]}
+              </div>
+            ))
+          ) : (
+            Array(7)
+              .fill(null)
+              .map((_, index) => (
+                <div
+                  key={index}
+                  className="p-2 rounded text-center bg-gray-800 text-gray-400"
+                >
+                  —
+                </div>
+              ))
+          )}
         </div>
       ))}
     </div>
-
-    {guessRows.map((guess, rowIndex) => (
-      <div key={rowIndex} className="grid grid-cols-7 gap-2 mb-2">
-        {guess ? (
-          dataKeys.map((key, index) => (
-            <div
-              key={index}
-              className={`p-2 rounded text-center text-white font-medium ${getCellColor(
-                key,
-                guess[key]
-              )}`}
-            >
-              {guess[key]}
-            </div>
-          ))
-        ) : (
-          Array(7)
-            .fill(null)
-            .map((_, index) => (
-              <div
-                key={index}
-                className="p-2 rounded text-center bg-gray-800 text-gray-400"
-              >
-                —
-              </div>
-            ))
-        )}
-      </div>
-    ))}
   </div>
-</div>
+)}
+
 
 
         {showPopup && (
