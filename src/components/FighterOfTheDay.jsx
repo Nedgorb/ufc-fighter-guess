@@ -370,27 +370,73 @@ setGlobalSuccessRate(updated.plays > 0 ? Math.round((updated.wins / updated.play
     className="w-full border p-2 rounded text-black"
     disabled={gameOver}
   />
-  {showSuggestions && input && (
-    <div className="absolute left-0 right-0 top-full bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded mt-1 z-50 max-h-40 overflow-y-auto shadow-md">
-      {fighters
-        .filter((fighter) =>
-          fighter.Name.toLowerCase().includes(input.toLowerCase())
-        )
-        .slice(0, 5)
-        .map((fighter, index) => (
-          <div
-            key={index}
-            onMouseDown={() => {
-              setInput(fighter.Name);
-              setShowSuggestions(false);
-            }}
-            className="px-3 py-1 hover:bg-gray-200 dark:hover:bg-gray-700 cursor-pointer"
-          >
-            {fighter.Name}
-          </div>
-        ))}
-    </div>
-  )}
+{showSuggestions && input && (
+  <div className="absolute left-0 right-0 top-full bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded mt-1 z-50 max-h-40 overflow-y-auto shadow-md">
+    {fighters
+      .filter((fighter) => fighter.Name) // remove blanks
+      .sort((a, b) => {
+        const inputLower = input.toLowerCase();
+
+        const aName = a.Name.toLowerCase();
+        const bName = b.Name.toLowerCase();
+
+        const [aFirst, ...aRest] = aName.split(" ");
+        const [bFirst, ...bRest] = bName.split(" ");
+
+        const aLast = aRest.join(" ");
+        const bLast = bRest.join(" ");
+
+        const aScore =
+          aFirst.startsWith(inputLower) ? 0 :
+          aLast.startsWith(inputLower) ? 1 :
+          aName.includes(inputLower) ? 2 : 3;
+
+        const bScore =
+          bFirst.startsWith(inputLower) ? 0 :
+          bLast.startsWith(inputLower) ? 1 :
+          bName.includes(inputLower) ? 2 : 3;
+
+        return aScore - bScore;
+      })
+      .filter((fighter) =>
+        fighter.Name.toLowerCase().includes(input.toLowerCase())
+      )
+      .slice(0, 5)
+      .map((fighter, index) => (
+<div
+  key={index}
+  onMouseDown={() => {
+    setInput(fighter.Name);
+    setShowSuggestions(false);
+  }}
+  className="px-3 py-1 hover:bg-gray-200 dark:hover:bg-gray-700 cursor-pointer"
+>
+  {(() => {
+    const name = fighter.Name;
+    const lowerName = name.toLowerCase();
+    const lowerInput = input.toLowerCase();
+    const matchIndex = lowerName.indexOf(lowerInput);
+
+    if (matchIndex === -1) return name;
+
+    const before = name.slice(0, matchIndex);
+    const match = name.slice(matchIndex, matchIndex + input.length);
+    const after = name.slice(matchIndex + input.length);
+
+    return (
+      <>
+        {before}
+        <span className="font-bold">{match}</span>
+        {after}
+      </>
+    );
+  })()}
+</div>
+
+      ))}
+  </div>
+)}
+
 </div>
 
           <button
@@ -589,37 +635,37 @@ setGlobalSuccessRate(updated.plays > 0 ? Math.round((updated.wins / updated.play
       <div className="space-y-3">
         {/* Gray - Not Close */}
         <div className="flex items-center space-x-3">
-          <div className="w-40 h-10 bg-gray-600 text-white rounded flex items-center justify-center font-medium">—</div>
+          <div className="min-w-[160px] h-10 bg-gray-600 text-white rounded flex items-center justify-center font-medium">—</div>
           <span className="text-sm text-black dark:text-white">Not close</span>
         </div>
 
         {/* Yellow - Country */}
         <div className="flex items-center space-x-3">
-          <div className="w-40 h-10 bg-yellow-500 text-white rounded flex items-center justify-center font-medium">Country</div>
+          <div className="min-w-[160px] h-10 bg-yellow-500 text-white rounded flex items-center justify-center font-medium">Country</div>
           <span className="text-sm text-black dark:text-white">Correct Continent, Wrong Country</span>
         </div>
 
         {/* Yellow - Weight Class */}
         <div className="flex items-center space-x-3">
-          <div className="w-40 h-10 bg-yellow-500 text-white rounded flex items-center justify-center font-medium">Weight Class</div>
+          <div className="min-w-[160px] h-10 bg-yellow-500 text-white rounded flex items-center justify-center font-medium">Weight Class</div>
           <span className="text-sm text-black dark:text-white">Within One Weight Class</span>
         </div>
 
         {/* Yellow - Age / Height */}
         <div className="flex items-center space-x-3">
-          <div className="w-40 h-10 bg-yellow-500 text-white rounded flex items-center justify-center font-medium">Age / Height</div>
+          <div className="min-w-[160px] h-10 bg-yellow-500 text-white rounded flex items-center justify-center font-medium">Age / Height</div>
           <span className="text-sm text-black dark:text-white">Within ±2 of Age or Height</span>
         </div>
 
         {/* Yellow - Fights */}
         <div className="flex items-center space-x-3">
-          <div className="w-40 h-10 bg-yellow-500 text-white rounded flex items-center justify-center font-medium">Number of Fights</div>
+          <div className="min-w-[160px] h-10 bg-yellow-500 text-white rounded flex items-center justify-center font-medium">Number of Fights</div>
           <span className="text-sm text-black dark:text-white">Within ±5 of Number of Fights</span>
         </div>
 
         {/* Green - Correct */}
         <div className="flex items-center space-x-3">
-          <div className="w-40 h-10 bg-green-600 text-white rounded flex items-center justify-center font-medium">✔</div>
+          <div className="min-w-[160px] h-10 bg-green-600 text-white rounded flex items-center justify-center font-medium">✔</div>
           <span className="text-sm text-black dark:text-white">Exactly Correct for Category</span>
         </div>
       </div>

@@ -2,39 +2,50 @@ import React, { useEffect, useState } from 'react';
 import fightersData from '../fighters.json';
 import ufcLogo from '../assets/ufc-logo.png';
 import Confetti from 'react-confetti';
-import UnlimitedLogin from '../UnlimitedLogin';
 import { supabase } from '../supabaseClient'; // Make sure this is already in place
 import UnlimitedLeaderboard from '../UnlimitedLeaderboard'; // adjust path if needed
 import { Moon, Sun, Smartphone, Monitor } from 'lucide-react';
-
-const updateUserStats = async (user, guessesTaken) => {
-  const newPlayed = user.games_played + 1;
-  const newWon = user.games_won + 1;
-  const newAvg = ((user.avg_score * user.games_played) + guessesTaken) / newPlayed;
-
-  const { data, error } = await supabase
-    .from('unlimited_scores')
-    .update({
-      games_played: newPlayed,
-      games_won: newWon,
-      avg_score: newAvg,
-    })
-    .eq('username', user.username)
-    .select()
-    .single();
-
-  if (error) {
-    console.error('Failed to update stats:', error);
-  } else {
-    console.log('Stats updated:', data);
-  }
-};
-
-
+import { useUser } from '@clerk/clerk-react';
 
 
 function App() {
   const [fighters, setFighters] = useState([]);
+
+  const updateUserStats = async (userStats, guessesTaken, userId) => {
+    console.log("🟡 Attempting to update stats for user:", userId);
+    console.log("🔢 Current stats:", userStats);
+    console.log("🎯 Guesses taken:", guessesTaken);
+  
+    const newPlayed = (userStats?.games_played || 0) + 1;
+    const newWon = (userStats?.games_won || 0) + 1;
+    const newAvg =
+      userStats
+        ? ((userStats.avg_score * userStats.games_played) + guessesTaken) / (userStats.games_played + 1)
+        : guessesTaken;
+  
+    const { data, error } = await supabase
+      .from("unlimited_scores")
+      .update({
+        games_played: newPlayed,
+        games_won: newWon,
+        avg_score: newAvg,
+      })
+      .eq("user_id", userId)
+      .select("*");
+  
+    if (error) {
+      console.error("❌ Failed to update stats:", error);
+      return null;
+    } else if (data.length === 0) {
+      console.warn("⚠️ No rows were updated. Check user_id match.");
+      return null;
+    } else {
+      console.log("✅ Updated stats:", data[0]);
+      return data[0];
+    }
+  };
+  
+
   const [input, setInput] = useState('');
   const [guesses, setGuesses] = useState([]);
   const [correctFighter, setCorrectFighter] = useState(null);
@@ -46,8 +57,19 @@ function App() {
   const [windowSize, setWindowSize] = useState({ width: window.innerWidth, height: window.innerHeight });
   const [showHowToPlay, setShowHowToPlay] =useState(false);
   const [showSuggestions, setShowSuggestions] =useState(false);
-  const [user, setUser] = useState(null);
+  const [loading, setLoading] = useState(true);
   const [isMobileView, setIsMobileView] =useState(window.innerWidth <= 768);
+  const [userStats, setUserStats] = useState(null);
+  const { user } = useUser();
+  const [isEasyMode, setIsEasyMode] = useState(() => {
+    const saved = localStorage.getItem("isEasyMode");
+    return saved ? JSON.parse(saved) : false; // default is HARD mode
+  });
+  
+  useEffect(() => {
+    localStorage.setItem("isEasyMode", JSON.stringify(isEasyMode));
+  }, [isEasyMode]);
+  
 
 
   const normalizeFighter = (fighter) => ({
@@ -66,16 +88,68 @@ function App() {
     setCorrectFighter(
       normalized[Math.floor(Math.random() * normalized.length)]
     );
-
-setIsMobileView(window.innerWidth <= 768);
-
+    setIsMobileView(window.innerWidth <= 768);
+  
     const handleResize = () => {
       setWindowSize({ width: window.innerWidth, height: window.innerHeight });
     };
+  
+    window.addEventListener("resize", handleResize);
+  
+    const fetchUserStats = async () => {
+        if (!user) return;
+      
+        console.log("👤 Fetching stats for:", user.id);
+      
+        const { data: stats, error } = await supabase
+          .from("unlimited_scores")
+          .select("*")
+          .eq("user_id", user.id)
+          .maybeSingle();
+      
+        console.log("📊 Fetch result:", stats, error);
+      
+        if (!stats) {
+          const { error: insertError } = await supabase
+            .from("unlimited_scores")
+            .insert({
+              user_id: user.id,
+              username: user.username || user.primaryEmailAddress?.emailAddress || 'Unknown',
+              games_played: 0,
+              games_won: 0,
+              avg_score: 0
+            });
+      
+          if (insertError) {
+            console.error("❌ Failed to insert new user record:", insertError.message);
+          } else {
+            console.log("🆕 Created new user stats entry.");
+          }
+      
+          setUserStats({
+            user_id: user.id,
+            games_played: 0,
+            games_won: 0,
+            avg_score: 0
+          });
+        } else {
+          console.log("✅ Found existing user stats");
+          setUserStats(stats);
+        }
+      
+        setLoading(false);
+      };
+      
+      fetchUserStats();
 
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
+      
+  
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, [user]);
+  
+  
 
   useEffect(() => {
     if (isDarkMode) {
@@ -87,6 +161,7 @@ setIsMobileView(window.innerWidth <= 768);
 
   const handleGuess = () => {
     if (gameOver || !input.trim()) return;
+    if (!userStats) return;
     const guess = fighters.find(
       (fighter) =>
         fighter.Name &&
@@ -107,7 +182,13 @@ setIsMobileView(window.innerWidth <= 768);
         setTimeout(() => setShowConfetti(false), 6000);
       
         // Update stats in Supabase
-        updateUserStats(user, newGuesses.length);
+        updateUserStats(userStats, newGuesses.length, user.id)
+  .then((updatedStats) => {
+    if (updatedStats) {
+      setUserStats(updatedStats);
+    }
+  });
+
       }
        else if (newGuesses.length >= 6) {
       setGameOver(true);
@@ -256,6 +337,52 @@ setIsMobileView(window.innerWidth <= 768);
     return 'bg-gray-600';
   };
 
+  const getDisplayValue = (key, value) => {
+    if (!correctFighter || !isEasyMode) return value;
+  
+    const correctValue = correctFighter[key];
+    if (!value || !correctValue || value === "Unknown" || correctValue === "Unknown") {
+      return value;
+    }
+  
+    const numericKeys = ['Age', 'Height', 'UFC Fights', 'MMA Fights'];
+    const weightOrder = [
+      'Strawweight',
+      'Flyweight',
+      'Bantamweight',
+      'Featherweight',
+      'Lightweight',
+      'Welterweight',
+      'Middleweight',
+      'Light Heavyweight',
+      'Heavyweight'
+    ];
+  
+    if (numericKeys.includes(key)) {
+      const diff = Number(value) - Number(correctValue);
+      if (Math.abs(diff) === 0 || isNaN(diff)) return value;
+      const arrow = diff > 0 ? '▼' : '▲';
+      return `${value} ${arrow}`;
+    }
+  
+    if (key === 'Weight Class') {
+      const guessedIndex = weightOrder.indexOf(value);
+      const correctIndex = weightOrder.indexOf(correctValue);
+  
+      if (guessedIndex === -1 || correctIndex === -1) return value;
+  
+      const diff = guessedIndex - correctIndex;
+      if (diff === 0) return value;
+  
+      const arrow = diff > 0 ? '▼' : '▲';
+      return `${value} ${arrow}`;
+    }
+  
+    return value;
+  };
+  
+  
+
   const resetGame = () => {
     const newFighter = fighters[Math.floor(Math.random() * fighters.length)];
     setCorrectFighter(newFighter);
@@ -274,10 +401,6 @@ setIsMobileView(window.innerWidth <= 768);
 
   const dataKeys = ['Name', 'Country', 'Weight Class', 'Age', 'Height', 'UFC Fights', 'MMA Fights'];
 
-
-  if (!user) {
-    return <UnlimitedLogin onLogin={setUser} />;
-  }
   
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900 text-black dark:text-white">
@@ -310,6 +433,13 @@ setIsMobileView(window.innerWidth <= 768);
       >
         {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}
       </button>
+      <button
+  onClick={() => setIsEasyMode((prev) => !prev)}
+  className="p-2 rounded-md border dark:border-gray-700 bg-gray-300 hover:bg-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 transition text-sm"
+>
+  {isEasyMode ? "Easy Mode" : "Hard Mode"}
+</button>
+
     </div>
   </div>
 ) : (
@@ -317,7 +447,7 @@ setIsMobileView(window.innerWidth <= 768);
   <div className="flex items-center justify-between mb-4">
     <div className="flex items-center space-x-2">
       <img src={ufcLogo} alt="UFC Logo" className="h-8" />
-      <h1 className="text-2xl font-bold">Fighter Guess</h1>
+      <h1 className="text-4xl font-bold">Fighter Guess</h1>
     </div>
     <div className="flex space-x-2">
       <a href="/" className="text-sm bg-gray-300 dark:bg-gray-700 px-2 py-1 rounded">Fighter of the Day</a>
@@ -336,6 +466,13 @@ setIsMobileView(window.innerWidth <= 768);
       >
         {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}
       </button>
+      <button
+  onClick={() => setIsEasyMode((prev) => !prev)}
+  className="p-2 rounded-md border dark:border-gray-700 bg-gray-300 hover:bg-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 transition text-sm"
+>
+  {isEasyMode ? "Easy Mode" : "Hard Mode"}
+</button>
+
     </div>
   </div>
 )}
@@ -354,27 +491,72 @@ setIsMobileView(window.innerWidth <= 768);
     className="w-full border p-2 rounded text-black"
     disabled={gameOver}
   />
-  {showSuggestions && input && (
-    <div className="absolute left-0 right-0 top-full bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded mt-1 z-50 max-h-40 overflow-y-auto shadow-md">
-      {fighters
-        .filter((fighter) =>
-          fighter.Name.toLowerCase().includes(input.toLowerCase())
-        )
-        .slice(0, 5)
-        .map((fighter, index) => (
-          <div
-            key={index}
-            onMouseDown={() => {
-              setInput(fighter.Name);
-              setShowSuggestions(false);
-            }}
-            className="px-3 py-1 hover:bg-gray-200 dark:hover:bg-gray-700 cursor-pointer"
-          >
-            {fighter.Name}
-          </div>
-        ))}
-    </div>
-  )}
+{showSuggestions && input && (
+  <div className="absolute left-0 right-0 top-full bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded mt-1 z-50 max-h-40 overflow-y-auto shadow-md">
+    {fighters
+      .filter((fighter) => fighter.Name) // remove blanks
+      .sort((a, b) => {
+        const inputLower = input.toLowerCase();
+
+        const aName = a.Name.toLowerCase();
+        const bName = b.Name.toLowerCase();
+
+        const [aFirst, ...aRest] = aName.split(" ");
+        const [bFirst, ...bRest] = bName.split(" ");
+
+        const aLast = aRest.join(" ");
+        const bLast = bRest.join(" ");
+
+        const aScore =
+          aFirst.startsWith(inputLower) ? 0 :
+          aLast.startsWith(inputLower) ? 1 :
+          aName.includes(inputLower) ? 2 : 3;
+
+        const bScore =
+          bFirst.startsWith(inputLower) ? 0 :
+          bLast.startsWith(inputLower) ? 1 :
+          bName.includes(inputLower) ? 2 : 3;
+
+        return aScore - bScore;
+      })
+      .filter((fighter) =>
+        fighter.Name.toLowerCase().includes(input.toLowerCase())
+      )
+      .slice(0, 5)
+      .map((fighter, index) => (
+<div
+  key={index}
+  onMouseDown={() => {
+    setInput(fighter.Name);
+    setShowSuggestions(false);
+  }}
+  className="px-3 py-1 hover:bg-gray-200 dark:hover:bg-gray-700 cursor-pointer"
+>
+  {(() => {
+    const name = fighter.Name;
+    const lowerName = name.toLowerCase();
+    const lowerInput = input.toLowerCase();
+    const matchIndex = lowerName.indexOf(lowerInput);
+
+    if (matchIndex === -1) return name;
+
+    const before = name.slice(0, matchIndex);
+    const match = name.slice(matchIndex, matchIndex + input.length);
+    const after = name.slice(matchIndex + input.length);
+
+    return (
+      <>
+        {before}
+        <span className="font-bold">{match}</span>
+        {after}
+      </>
+    );
+  })()}
+</div>
+
+      ))}
+  </div>
+)}
 </div>
 
           <button
@@ -442,7 +624,7 @@ setIsMobileView(window.innerWidth <= 768);
                   guess[key]
                 )}`}
               >
-                {guess[key]}
+                {getDisplayValue(key, guess[key])}
               </div>
             ))
           ) : (
@@ -530,37 +712,37 @@ setIsMobileView(window.innerWidth <= 768);
       <div className="space-y-3">
         {/* Gray - Not Close */}
         <div className="flex items-center space-x-3">
-          <div className="w-40 h-10 bg-gray-600 text-white rounded flex items-center justify-center font-medium">—</div>
+          <div className="min-w-[160px] h-10 bg-gray-600 text-white rounded flex items-center justify-center font-medium">—</div>
           <span className="text-sm text-black dark:text-white">Not close</span>
         </div>
 
         {/* Yellow - Country */}
         <div className="flex items-center space-x-3">
-          <div className="w-40 h-10 bg-yellow-500 text-white rounded flex items-center justify-center font-medium">Country</div>
+          <div className="min-w-[160px] h-10 bg-yellow-500 text-white rounded flex items-center justify-center font-medium">Country</div>
           <span className="text-sm text-black dark:text-white">Correct Continent, Wrong Country</span>
         </div>
 
         {/* Yellow - Weight Class */}
         <div className="flex items-center space-x-3">
-          <div className="w-40 h-10 bg-yellow-500 text-white rounded flex items-center justify-center font-medium">Weight Class</div>
+          <div className="min-w-[160px] h-10 bg-yellow-500 text-white rounded flex items-center justify-center font-medium">Weight Class</div>
           <span className="text-sm text-black dark:text-white">Within One Weight Class</span>
         </div>
 
         {/* Yellow - Age / Height */}
         <div className="flex items-center space-x-3">
-          <div className="w-40 h-10 bg-yellow-500 text-white rounded flex items-center justify-center font-medium">Age / Height</div>
+          <div className="min-w-[160px] h-10 bg-yellow-500 text-white rounded flex items-center justify-center font-medium">Age / Height</div>
           <span className="text-sm text-black dark:text-white">Within ±2 of Age or Height</span>
         </div>
 
         {/* Yellow - Fights */}
         <div className="flex items-center space-x-3">
-          <div className="w-40 h-10 bg-yellow-500 text-white rounded flex items-center justify-center font-medium">Number of Fights</div>
+          <div className="min-w-[160px] h-10 bg-yellow-500 text-white rounded flex items-center justify-center font-medium">Number of Fights</div>
           <span className="text-sm text-black dark:text-white">Within ±5 of Number of Fights</span>
         </div>
 
         {/* Green - Correct */}
         <div className="flex items-center space-x-3">
-          <div className="w-40 h-10 bg-green-600 text-white rounded flex items-center justify-center font-medium">✔</div>
+          <div className="min-w-[160px] h-10 bg-green-600 text-white rounded flex items-center justify-center font-medium">✔</div>
           <span className="text-sm text-black dark:text-white">Exactly Correct for Category</span>
         </div>
       </div>
