@@ -21,19 +21,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path="/" element={<FighterOfTheDay />} />
 
           {/* Protected route for Unlimited Mode */}
-          <Route
-            path="/unlimited"
-            element={
-              <>
-                <SignedIn>
-                  <UnlimitedMode />
-                </SignedIn>
-                <SignedOut>
-                  <RedirectToSignIn />
-                </SignedOut>
-              </>
-            }
-          />
+          <Route path="/unlimited" element={<UnlimitedMode />} />
+
 
           {/* Sign-in route */}
           <Route path="/sign-in" element={<SignInPage />} />
